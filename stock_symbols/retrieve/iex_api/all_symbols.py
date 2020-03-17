@@ -2,9 +2,9 @@ import os
 
 import pandas as pd
 
-IEX_API_TOKEN = os.environ["IEX_API_TOKEN"]
+IEX_API_KEY = os.environ["IEX_API_KEY"]
 
-ALL_SYMBOLS_IEX_API = "https://cloud.iexapis.com/stable/ref-data/symbols?format=csv&token=" + IEX_API_TOKEN
+ALL_SYMBOLS_IEX_API = "https://cloud.iexapis.com/stable/ref-data/symbols?format=csv&token=" + IEX_API_KEY
 """
 ad - ADR
 re - REIT
