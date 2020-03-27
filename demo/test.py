@@ -23,6 +23,10 @@ stock_list_industries_map = {
 	          "Packaged Software", "NoData"]
 }
 
+def invert_dict(dic):
+	return dict((val, key) for key in dic for val in dic[key])
+	
+
 debt_sec = retrieve_debt_sec_dataset()
 
 debt_sec = debt_sec[["symbol", "coupon_rate", "sector", "industry", "company_name", "month_3_aver_vol"]]
@@ -34,4 +38,14 @@ debt_sec = debt_sec.sort_values(["sector", "industry", "company_name", "coupon_r
 
 # ordered = debt_sec.groupby(["sector", "industry"]).size().sort_values(ascending=False)
 
+inverted = invert_dict(stock_list_industries_map)
 
+debt_sec["stock_list"] = debt_sec["industry"].map(inverted)
+stock_lists = debt_sec[["symbol", "stock_list"]]
+
+x = stock_lists.groupby("stock_list").sort_values(ascending=False).reset_index()
+
+# g = df.groupby('A')
+# sorted(g,  # iterates pairs of (key, corresponding subDataFrame)
+#                 key=lambda x: len(x[1]),  # sort by number of rows (len of subDataFrame)
+#                 reverse=True)  # reverse the sort i.e. largest first
