@@ -2,22 +2,36 @@ import pandas as pd
 
 from stock_symbols.retrieve.debt_securities.dataset import retrieve_debt_sec_dataset
 
-stock_list_map = {"reits": ["Real Estate Investment Trusts"],
-                  "banks": ["Major Banks", "Regional Banks"]}
+stock_list_industries_map = {
+	"banks": ["Major Banks", "Regional Banks", "Investment Banks/Brokers", "Financial Conglomerates", "Savings Banks"],
+	"insurance": ["Multi-Line Insurance", "Life/Health Insurance", "Property/Casualty Insurance", "Specialty Insurance",
+	              "Insurance Brokers/Services"],
+	"other_financial": ["Investment Trusts/Mutual Funds", "Finance/Rental/Leasing", "Investment Managers"],
+	"reits": ["Real Estate Investment Trusts", "Real Estate Development"],
+	"electric_commun": ["Electric Utilities", "Major Telecommunications", "Specialty Telecommunications",
+	                    "Wireless Telecommunications", "Water Utilities"],
+	"transport": ["Marine Shipping", "Air Freight/Couriers", "Trucking"],
+	"oil_gas": ["Oil & Gas Production", "Oil Refining/Marketing", "Oil & Gas Pipelines", "Gas Distributors",
+	            "Oilfield Services/Equipment", "Contract Drilling"],
+	"other": ["Agricultural Commodities/Milling", "Miscellaneous Commercial Services", "Homebuilding", "Motor Vehicles",
+	          "Recreational Products", "Tools & Hardware", "Beverages: Alcoholic", "Household/Personal Care",
+	          "Movies/Entertainment", "Other Consumer Services", "Wholesale Distributors",
+	          "Electronic Equipment/Instruments", "Semiconductors", "Biotechnology", "Medical Specialties",
+	          "Precious Metals", "Chemicals: Specialty", "Electrical Products", "Industrial Conglomerates",
+	          "Industrial Machinery", "Office Equipment/Supplies", "Trucks/Construction/Farm Machinery",
+	          "Internet Retail", "Specialty Stores", "Information Technology Services", "Internet Software/Services",
+	          "Packaged Software", "NoData"]
+}
 
 debt_sec = retrieve_debt_sec_dataset()
 
-debt_sec = debt_sec[["symbol", "coupon_rate", "company_name", "sector", "industry", "month_3_aver_vol"]]
+debt_sec = debt_sec[["symbol", "coupon_rate", "sector", "industry", "company_name", "month_3_aver_vol"]]
 
-# sectors = pd.Series(debt_sec["sector"].unique())
-# industries = pd.Series(debt_sec["industry"].unique())
+debt_sec = debt_sec.sort_values(["sector", "industry", "company_name", "coupon_rate"],
+                                ascending=(True, True, True, False))
 
-# nans = debt_sec[debt_sec.isnull().any(axis=1)]
-ordered = debt_sec.groupby(["sector", "industry"]).size().sort_values(ascending=False)
+# debt_sec.to_csv("demo/debt_sec.csv", index=False)
 
-debt_sec = debt_sec.set_index(["sector", "industry"])
-ind = debt_sec.loc[("Finance", "Property/Casualty Insurance")]
-finance = debt_sec[(debt_sec.index.get_level_values(0) == "Finance") & (
-		debt_sec.index.get_level_values(1) != "Real Estate Investment Trusts")]
+# ordered = debt_sec.groupby(["sector", "industry"]).size().sort_values(ascending=False)
 
-finance = finance.sort_index(level=[1])
+

@@ -1,0 +1,748 @@
+symbol,coupon_rate,sector,industry,company_name,month_3_aver_vol
+GSL-PB,8.75,Commercial Services,Miscellaneous Commercial Services,"Global Ship Lease, Inc.",14870
+GSLD,8.0,Commercial Services,Miscellaneous Commercial Services,"Global Ship Lease, Inc.",37540
+NEWTI,6.25,Commercial Services,Miscellaneous Commercial Services,Newtek Business Services Corp.,4880
+NEWTL,5.75,Commercial Services,Miscellaneous Commercial Services,Newtek Business Services Corp.,9783
+TBC,5.625,Communications,Major Telecommunications,"AT&T, Inc.",117087
+TBB,5.35,Communications,Major Telecommunications,"AT&T, Inc.",140811
+T-PA,5.0,Communications,Major Telecommunications,"AT&T, Inc.",466806
+T-PC,4.75,Communications,Major Telecommunications,"AT&T, Inc.",1237276
+CBB-PB,6.75,Communications,Specialty Telecommunications,"Cincinnati Bell, Inc.",11797
+CTAA,7.0,Communications,Specialty Telecommunications,Qwest Corp.,24221
+CTV,6.875,Communications,Specialty Telecommunications,Qwest Corp.,75828
+CTDD,6.75,Communications,Specialty Telecommunications,Qwest Corp.,61370
+CTZ,6.625,Communications,Specialty Telecommunications,Qwest Corp.,41107
+CTBB,6.5,Communications,Specialty Telecommunications,Qwest Corp.,149016
+CTY,6.125,Communications,Specialty Telecommunications,Qwest Corp.,82711
+TDJ,7.0,Communications,Wireless Telecommunications,"Telephone & Data Systems, Inc.",29863
+TDE,6.875,Communications,Wireless Telecommunications,"Telephone & Data Systems, Inc.",21161
+TDI,6.625,Communications,Wireless Telecommunications,"Telephone & Data Systems, Inc.",9420
+TDA,5.875,Communications,Wireless Telecommunications,"Telephone & Data Systems, Inc.",17944
+UZB,7.25,Communications,Wireless Telecommunications,United States Cellular Corp.,25227
+UZC,7.25,Communications,Wireless Telecommunications,United States Cellular Corp.,26461
+UZA,6.95,Communications,Wireless Telecommunications,United States Cellular Corp.,31868
+HOVNP,7.625,Consumer Durables,Homebuilding,"Hovnanian Enterprises, Inc.",5157
+F-PB,6.2,Consumer Durables,Motor Vehicles,Ford Motor Co.,211218
+F-PC,6.0,Consumer Durables,Motor Vehicles,Ford Motor Co.,277324
+BC-PB,6.625,Consumer Durables,Recreational Products,Brunswick Corp.,29358
+BC-PA,6.5,Consumer Durables,Recreational Products,Brunswick Corp.,37576
+BC-PC,6.375,Consumer Durables,Recreational Products,Brunswick Corp.,51210
+SWP,5.375,Consumer Durables,Tools & Hardware,"Stanley Black & Decker, Inc.",90066
+SWT,5.25,Consumer Durables,Tools & Hardware,"Stanley Black & Decker, Inc.",131803
+WVVIP,5.3,Consumer Non-Durables,Beverages: Alcoholic,"Willamette Valley Vineyards, Inc.",715
+ENR-PA,7.5,Consumer Non-Durables,Household/Personal Care,"Energizer Holdings, Inc.",24285
+IFFT,6.0,Consumer Non-Durables,Household/Personal Care,"International Flavors & Fragrances, Inc.",118984
+CSSEP,9.75,Consumer Services,Movies/Entertainment,"Chicken Soup for the Soul Entertainment, Inc.",10419
+DS-PB,9.75,Consumer Services,Movies/Entertainment,"Drive Shack, Inc.",6711
+DS-PD,8.375,Consumer Services,Movies/Entertainment,"Drive Shack, Inc.",2111
+DS-PC,8.05,Consumer Services,Movies/Entertainment,"Drive Shack, Inc.",3016
+TANNI,8.25,Consumer Services,Other Consumer Services,"TravelCenters of America, Inc.",16195
+TANNZ,8.0,Consumer Services,Other Consumer Services,"TravelCenters of America, Inc.",10297
+TANNL,8.0,Consumer Services,Other Consumer Services,"TravelCenters of America, Inc.",14405
+YCBD-PA,8.0,Consumer Services,Other Consumer Services,"cbdMD, Inc.",3066
+EBAYL,6.0,Consumer Services,Other Consumer Services,"eBay, Inc.",78006
+GFNCP,9.0,Distribution Services,Wholesale Distributors,General Finance Corp.,1270
+GFNSL,8.125,Distribution Services,Wholesale Distributors,General Finance Corp.,4508
+GLP-PA,9.75,Distribution Services,Wholesale Distributors,Global Partners LP,12216
+CETXP,10.0,Electronic Technology,Electronic Equipment/Instruments,"Cemtrex, Inc.",10957
+AVGOP,8.0,Electronic Technology,Semiconductors,"Broadcom, Inc.",21264
+CHK-PD,4.5,Energy Minerals,Oil & Gas Production,Chesapeake Energy Corp.,28788
+NGLS-PA,9.0,Energy Minerals,Oil & Gas Production,Targa Resources Partners LP,40708
+NS-PC,9.0,Energy Minerals,Oil Refining/Marketing,NuStar Energy LP,43840
+NS-PA,8.5,Energy Minerals,Oil Refining/Marketing,NuStar Energy LP,60720
+NS-PB,7.625,Energy Minerals,Oil Refining/Marketing,NuStar Energy LP,94585
+AEFC,5.1,Finance,Finance/Rental/Leasing,Aegon Funding Co. LLC,176853
+AL-PA,6.15,Finance,Finance/Rental/Leasing,Air Lease Corp.,36067
+ASRVP,8.45,Finance,Finance/Rental/Leasing,AmeriServ Financial Capital Trust I,1194
+BANFP,7.2,Finance,Finance/Rental/Leasing,BFC Capital Trust II,1305
+GYC,0.0,Finance,Finance/Rental/Leasing,CABCO Series 2004-102 Trust,2204
+PFH,7.625,Finance,Finance/Rental/Leasing,CABCO Trust for JC Penney Debentures,7129
+CAI-PA,8.5,Finance,Finance/Rental/Leasing,"CAI International, Inc.",9788
+CAI-PB,8.5,Finance,Finance/Rental/Leasing,"CAI International, Inc.",10466
+C-PN,7.875,Finance,Finance/Rental/Leasing,Citigroup Capital XIII,290825
+KTN,8.205,Finance,Finance/Rental/Leasing,Corporate Backed Trust Certificates,3166
+KTP,7.625,Finance,Finance/Rental/Leasing,Corporate Backed Trust Certificates,18686
+KTH,0.0,Finance,Finance/Rental/Leasing,Corporate Backed Trust Certificates,1544
+DXB,6.55,Finance,Finance/Rental/Leasing,Deutsche Bank Contingent Capital Trust II,169158
+DDT,7.5,Finance,Finance/Rental/Leasing,Dillards Capital Trust I,27521
+EP-PC,4.75,Finance,Finance/Rental/Leasing,El Paso Energy Capital Trust I,0
+AGM-PC,6.0,Finance,Finance/Rental/Leasing,Federal Agricultural Mortgage Corp.,5531
+AGM-PA,5.875,Finance,Finance/Rental/Leasing,Federal Agricultural Mortgage Corp.,3768
+AGM-PD,5.7,Finance,Finance/Rental/Leasing,Federal Agricultural Mortgage Corp.,13285
+GMTA,5.625,Finance,Finance/Rental/Leasing,GATX Corp.,14911
+ALLY-PA,8.125,Finance,Finance/Rental/Leasing,Gmac Capital Trust I,462456
+HJV,7.0,Finance,Finance/Rental/Leasing,MS Structured SATURNS Series 2007-1,7069
+NRUC,5.5,Finance,Finance/Rental/Leasing,National Rural Utilities Cooperative Finance Corp.,26462
+JSM,6.0,Finance,Finance/Rental/Leasing,Navient Corp.,29604
+NEE-PN,5.65,Finance,Finance/Rental/Leasing,"NextEra Energy Capital Holdings, Inc.",151771
+NEE-PK,5.25,Finance,Finance/Rental/Leasing,"NextEra Energy Capital Holdings, Inc.",51135
+NEE-PI,5.125,Finance,Finance/Rental/Leasing,"NextEra Energy Capital Holdings, Inc.",71365
+NEE-PJ,5.0,Finance,Finance/Rental/Leasing,"NextEra Energy Capital Holdings, Inc.",75462
+PPX,5.9,Finance,Finance/Rental/Leasing,"PPL Capital Funding, Inc.",37573
+PYS,6.3,Finance,Finance/Rental/Leasing,PPLUS Trust,5035
+PYT,0.0,Finance,Finance/Rental/Leasing,PPLUS Trust Series GSC-2,3019
+BPOPN,6.7,Finance,Finance/Rental/Leasing,Popular Capital Trust I,10452
+BPOPM,6.125,Finance,Finance/Rental/Leasing,Popular Capital Trust II,6492
+PIY,8.375,Finance,Finance/Rental/Leasing,PreferredPlus Trust,7313
+SCE-PG,5.1,Finance,Finance/Rental/Leasing,SCE Trust II,44045
+SCE-PH,5.75,Finance,Finance/Rental/Leasing,SCE Trust III,39008
+SCE-PJ,5.375,Finance,Finance/Rental/Leasing,SCE Trust IV,25077
+SCE-PK,5.45,Finance,Finance/Rental/Leasing,SCE Trust V,41653
+SCE-PL,5.0,Finance,Finance/Rental/Leasing,SCE Trust VI,66869
+SLMBP,0.0,Finance,Finance/Rental/Leasing,SLM Corp.,28713
+GJT,0.0,Finance,Finance/Rental/Leasing,STRATS Trust for Allstate Corp. Series 2006-3,2114
+GJP,0.0,Finance,Finance/Rental/Leasing,"STRATS Trust for Dominion Resources, Inc. Series 2005-6",1489
+GJS,0.0,Finance,Finance/Rental/Leasing,STRATS Trust for Goldman Sachs Group Series 2006-2,2478
+GJR,0.0,Finance,Finance/Rental/Leasing,STRATS Trust for Procter & Gamble 2006-1,544
+GJH,6.375,Finance,Finance/Rental/Leasing,STRATS Trust for U.S. Cellular Corp. SEC Series 2004-6,1727
+SAN-PB,0.0,Finance,Finance/Rental/Leasing,Santander Finance Preferred SA Unipersonal,25204
+SYF-PA,5.625,Finance,Finance/Rental/Leasing,Synchrony Financial,142866
+TRTN-PA,8.5,Finance,Finance/Rental/Leasing,Triton International Ltd.,21574
+TRTN-PB,8.0,Finance,Finance/Rental/Leasing,Triton International Ltd.,33173
+TRTN-PC,7.375,Finance,Finance/Rental/Leasing,Triton International Ltd.,54331
+TRTN-PD,6.875,Finance,Finance/Rental/Leasing,Triton International Ltd.,144707
+C-PJ,7.125,Finance,Financial Conglomerates,"Citigroup, Inc.",111426
+C-PK,6.875,Finance,Financial Conglomerates,"Citigroup, Inc.",186359
+C-PS,6.3,Finance,Financial Conglomerates,"Citigroup, Inc.",152629
+EQH-PA,5.25,Finance,Financial Conglomerates,"Equitable Holdings, Inc.",215370
+PJH,5.75,Finance,Financial Conglomerates,"Prudential Financial, Inc.",41300
+PRH,5.7,Finance,Financial Conglomerates,"Prudential Financial, Inc.",65515
+PRS,5.625,Finance,Financial Conglomerates,"Prudential Financial, Inc.",63418
+RCP,6.5,Finance,Financial Conglomerates,Ready Capital Corp. (New York),5171
+ESGRP,7.0,Finance,Insurance Brokers/Services,Enstar Group Ltd.,36507
+ESGRO,7.0,Finance,Insurance Brokers/Services,Enstar Group Ltd.,27516
+RILYZ,7.5,Finance,Investment Banks/Brokers,"B. Riley Financial, Inc.",34329
+RILYH,7.375,Finance,Investment Banks/Brokers,"B. Riley Financial, Inc.",18246
+RILYG,7.25,Finance,Investment Banks/Brokers,"B. Riley Financial, Inc.",17958
+RILYI,6.875,Finance,Investment Banks/Brokers,"B. Riley Financial, Inc.",15987
+RILYP,6.875,Finance,Investment Banks/Brokers,"B. Riley Financial, Inc.",19438
+RILYO,6.75,Finance,Investment Banks/Brokers,"B. Riley Financial, Inc.",17021
+RILYN,6.5,Finance,Investment Banks/Brokers,"B. Riley Financial, Inc.",28145
+RILYM,6.375,Finance,Investment Banks/Brokers,"B. Riley Financial, Inc.",113521
+COWNL,7.75,Finance,Investment Banks/Brokers,"Cowen, Inc.",12486
+COWNZ,7.35,Finance,Investment Banks/Brokers,"Cowen, Inc.",19119
+JMPNZ,6.875,Finance,Investment Banks/Brokers,JMP Group LLC,16559
+JMPNL,7.25,Finance,Investment Banks/Brokers,"JMP Group, Inc.",5111
+MS-PF,6.875,Finance,Investment Banks/Brokers,Morgan Stanley,93055
+MS-PI,6.375,Finance,Investment Banks/Brokers,Morgan Stanley,108069
+MS-PK,5.85,Finance,Investment Banks/Brokers,Morgan Stanley,128271
+MS-PL,4.875,Finance,Investment Banks/Brokers,Morgan Stanley,196016
+MS-PA,0.0,Finance,Investment Banks/Brokers,Morgan Stanley,131466
+MS-PE,7.125,Finance,Investment Banks/Brokers,Morgan Stanley & Co. LLC,98978
+SF-PA,6.25,Finance,Investment Banks/Brokers,Stifel Financial Corp.,13803
+SF-PB,6.25,Finance,Investment Banks/Brokers,Stifel Financial Corp.,17671
+SCHW-PC,6.0,Finance,Investment Banks/Brokers,The Charles Schwab Corp.,73748
+SCHW-PD,5.95,Finance,Investment Banks/Brokers,The Charles Schwab Corp.,135289
+GS-PK,6.375,Finance,Investment Banks/Brokers,"The Goldman Sachs Group, Inc.",78787
+GS-PN,6.3,Finance,Investment Banks/Brokers,"The Goldman Sachs Group, Inc.",85470
+GS-PJ,5.5,Finance,Investment Banks/Brokers,"The Goldman Sachs Group, Inc.",123983
+GS-PA,0.0,Finance,Investment Banks/Brokers,"The Goldman Sachs Group, Inc.",75995
+GS-PC,0.0,Finance,Investment Banks/Brokers,"The Goldman Sachs Group, Inc.",25211
+GS-PD,0.0,Finance,Investment Banks/Brokers,"The Goldman Sachs Group, Inc.",154935
+MGR,5.875,Finance,Investment Managers,"Affiliated Managers Group, Inc.",33786
+AFC,6.875,Finance,Investment Managers,Allied Capital Corp.,26246
+APO-PA,6.375,Finance,Investment Managers,"Apollo Global Management, Inc.",32293
+APO-PB,6.375,Finance,Investment Managers,"Apollo Global Management, Inc.",31345
+ARES-PA,7.0,Finance,Investment Managers,Ares Management Corp.,29647
+ATCO-PD,7.95,Finance,Investment Managers,Atlas Corp. (British Columbia),41774
+BSA,5.125,Finance,Investment Managers,"BrightSphere Investment Group, Inc.",27014
+CSWCL,5.95,Finance,Investment Managers,Capital Southwest Corp.,6952
+CPTAL,6.0,Finance,Investment Managers,Capitala Finance Corp.,8655
+CPTAG,5.75,Finance,Investment Managers,Capitala Finance Corp.,5482
+CODI-PB,7.875,Finance,Investment Managers,Compass Diversified Holdings,26148
+CODI-PC,7.875,Finance,Investment Managers,Compass Diversified Holdings,43243
+CODI-PA,7.25,Finance,Investment Managers,Compass Diversified Holdings,24244
+CORR-PA,7.375,Finance,Investment Managers,"CorEnergy Infrastructure Trust, Inc.",37629
+EFC-PA,6.75,Finance,Investment Managers,"Ellington Financial, Inc.",21350
+FDUSZ,6.0,Finance,Investment Managers,Fidus Investment Corp.,5248
+FDUSL,5.875,Finance,Investment Managers,Fidus Investment Corp.,3549
+FDUSG,5.375,Finance,Investment Managers,Fidus Investment Corp.,8466
+FTAI-PA,8.25,Finance,Investment Managers,Fortress Transportation & Infrastructure Investors LLC,23731
+FTAI-PB,8.0,Finance,Investment Managers,Fortress Transportation & Infrastructure Investors LLC,35011
+GLADD,6.125,Finance,Investment Managers,Gladstone Capital Corp.,3696
+GLADL,5.375,Finance,Investment Managers,Gladstone Capital Corp.,4729
+GAINL,6.375,Finance,Investment Managers,Gladstone Investment Corp.,6976
+GAINM,6.25,Finance,Investment Managers,Gladstone Investment Corp.,8778
+GECCM,6.75,Finance,Investment Managers,Great Elm Capital Corp.,2943
+GECCN,6.5,Finance,Investment Managers,Great Elm Capital Corp.,4063
+HCXY,6.25,Finance,Investment Managers,"Hercules Capital, Inc.",3958
+HCXZ,5.25,Finance,Investment Managers,"Hercules Capital, Inc.",8449
+KKR-PA,6.75,Finance,Investment Managers,"KKR & Co., Inc.",57979
+KKR-PB,6.5,Finance,Investment Managers,"KKR & Co., Inc.",16881
+LMHA,6.375,Finance,Investment Managers,"Legg Mason, Inc.",25984
+LMHB,5.45,Finance,Investment Managers,"Legg Mason, Inc.",51270
+MVCD,6.25,Finance,Investment Managers,"MVC Capital, Inc.",12396
+MFINL,9.0,Finance,Investment Managers,Medallion Financial Corp.,3384
+MDLQ,7.25,Finance,Investment Managers,Medley LLC,10778
+MDLX,6.875,Finance,Investment Managers,Medley LLC,10213
+BML-PH,0.0,Finance,Investment Managers,"Merrill Lynch & Co., Inc.",31172
+MRCCL,5.75,Finance,Investment Managers,Monroe Capital Corp.,7160
+NMFX,5.75,Finance,Investment Managers,New Mountain Finance Corp.,3192
+OFSSZ,6.5,Finance,Investment Managers,OFS Capital Corp.,2652
+OFSSL,6.375,Finance,Investment Managers,OFS Capital Corp.,5295
+OFSSI,5.95,Finance,Investment Managers,OFS Capital Corp.,5613
+OAK-PA,6.625,Finance,Investment Managers,Oaktree Capital Group LLC,25183
+OAK-PB,6.55,Finance,Investment Managers,Oaktree Capital Group LLC,28254
+OXSQL,6.5,Finance,Investment Managers,Oxford Square Capital Corp.,10397
+OXSQZ,6.25,Finance,Investment Managers,Oxford Square Capital Corp.,2338
+PNNTG,5.5,Finance,Investment Managers,PennantPark Investment Corp.,5826
+KCAPL,6.125,Finance,Investment Managers,Portman Ridge Finance Corp.,7001
+PBC,6.875,Finance,Investment Managers,Prospect Capital Corp.,10204
+PBB,6.25,Finance,Investment Managers,Prospect Capital Corp.,25844
+PBY,6.25,Finance,Investment Managers,Prospect Capital Corp.,7880
+SAF,6.25,Finance,Investment Managers,Saratoga Investment Corp.,7116
+SCA,5.75,Finance,Investment Managers,Stellus Capital Investment Corp.,5849
+TCRZ,6.75,Finance,Investment Managers,"THL Credit, Inc.",8281
+TCRW,6.125,Finance,Investment Managers,"THL Credit, Inc.",3937
+TPVY,5.75,Finance,Investment Managers,TriplePoint Venture Growth BDC Corp.,5527
+WHFBZ,6.5,Finance,Investment Managers,"WhiteHorse Finance, Inc.",3043
+AEL-PA,5.95,Finance,Life/Health Insurance,American Equity Investment Life Holding Co.,101086
+BHFAP,6.6,Finance,Life/Health Insurance,"Brighthouse Financial, Inc.",54205
+BHFAL,6.25,Finance,Life/Health Insurance,"Brighthouse Financial, Inc.",34147
+GL-PC,6.125,Finance,Life/Health Insurance,"Globe Life, Inc.",43107
+MHNC,7.75,Finance,Life/Health Insurance,Maiden Holdings North America Ltd.,11361
+MET-PE,5.625,Finance,Life/Health Insurance,"MetLife, Inc.",90887
+MET-PF,4.75,Finance,Life/Health Insurance,"MetLife, Inc.",822728
+MET-PA,0.0,Finance,Life/Health Insurance,"MetLife, Inc.",53464
+RZA,6.2,Finance,Life/Health Insurance,"Reinsurance Group of America, Inc.",71692
+RZB,5.75,Finance,Life/Health Insurance,"Reinsurance Group of America, Inc.",34339
+UNMA,6.25,Finance,Life/Health Insurance,Unum Group,31679
+VOYA-PB,5.35,Finance,Life/Health Insurance,"Voya Financial, Inc.",29132
+BAC-PL,7.25,Finance,Major Banks,Bank of America Corp.,12405
+MER-PK,6.45,Finance,Major Banks,Bank of America Corp.,103973
+BAC-PC,6.2,Finance,Major Banks,Bank of America Corp.,132587
+BAC-PB,6.0,Finance,Major Banks,Bank of America Corp.,171740
+BAC-PA,6.0,Finance,Major Banks,Bank of America Corp.,131244
+BAC-PK,5.875,Finance,Major Banks,Bank of America Corp.,114322
+BAC-PM,5.375,Finance,Major Banks,Bank of America Corp.,234558
+BAC-PN,5.0,Finance,Major Banks,Bank of America Corp.,255884
+BML-PG,0.0,Finance,Major Banks,Bank of America Corp.,8353
+BML-PJ,0.0,Finance,Major Banks,Bank of America Corp.,30847
+BML-PL,0.0,Finance,Major Banks,Bank of America Corp.,39889
+BAC-PE,0.0,Finance,Major Banks,Bank of America Corp.,39000
+CIT-PB,5.625,Finance,Major Banks,"CIT Group, Inc.",44563
+COF-PF,6.2,Finance,Major Banks,Capital One Financial Corp.,65174
+COF-PH,6.0,Finance,Major Banks,Capital One Financial Corp.,51541
+COF-PG,5.2,Finance,Major Banks,Capital One Financial Corp.,63646
+COF-PI,5.0,Finance,Major Banks,Capital One Financial Corp.,335297
+COF-PJ,4.8,Finance,Major Banks,Capital One Financial Corp.,1292359
+HSBC-PA,6.2,Finance,Major Banks,HSBC Holdings Plc,162323
+JPM-PH,6.15,Finance,Major Banks,JPMorgan Chase & Co.,157128
+JPM-PG,6.1,Finance,Major Banks,JPMorgan Chase & Co.,158928
+JPM-PC,6.0,Finance,Major Banks,JPMorgan Chase & Co.,316480
+JPM-PD,5.75,Finance,Major Banks,JPMorgan Chase & Co.,244843
+JPM-PJ,4.75,Finance,Major Banks,JPMorgan Chase & Co.,209062
+KEY-PI,6.125,Finance,Major Banks,KeyCorp,53584
+KEY-PJ,5.65,Finance,Major Banks,KeyCorp,52795
+KEY-PK,5.625,Finance,Major Banks,KeyCorp,71193
+OFG-PA,7.125,Finance,Major Banks,OFG Bancorp,5937
+OFG-PD,7.125,Finance,Major Banks,OFG Bancorp,3936
+OFG-PB,7.0,Finance,Major Banks,OFG Bancorp,5193
+PBCTP,5.625,Finance,Major Banks,"People's United Financial, Inc.",26645
+RF-PB,6.375,Finance,Major Banks,Regions Financial Corp.,53205
+RF-PA,6.375,Finance,Major Banks,Regions Financial Corp.,54051
+RF-PC,5.7,Finance,Major Banks,Regions Financial Corp.,43625
+TCFCP,5.7,Finance,Major Banks,TCF Financial Corp.,17632
+BK-PC,5.2,Finance,Major Banks,The Bank of New York Mellon Corp.,71465
+PNC-PP,6.125,Finance,Major Banks,"The PNC Financial Services Group, Inc.",161214
+PNC-PQ,5.375,Finance,Major Banks,"The PNC Financial Services Group, Inc.",38774
+USB-PM,6.5,Finance,Major Banks,U.S. Bancorp,127468
+USB-PP,5.5,Finance,Major Banks,U.S. Bancorp,60121
+USB-PO,5.15,Finance,Major Banks,U.S. Bancorp,44206
+USB-PA,0.0,Finance,Major Banks,U.S. Bancorp,1326
+USB-PH,0.0,Finance,Major Banks,U.S. Bancorp,109237
+WFC-PL,7.5,Finance,Major Banks,Wachovia Corp.,13377
+WFC-PR,6.625,Finance,Major Banks,Wells Fargo & Co.,93742
+WFC-PT,6.0,Finance,Major Banks,Wells Fargo & Co.,117196
+WFC-PV,6.0,Finance,Major Banks,Wells Fargo & Co.,122240
+WFC-PQ,5.85,Finance,Major Banks,Wells Fargo & Co.,182896
+WFC-PW,5.7,Finance,Major Banks,Wells Fargo & Co.,105210
+WFC-PY,5.625,Finance,Major Banks,Wells Fargo & Co.,89551
+WFC-PX,5.5,Finance,Major Banks,Wells Fargo & Co.,141270
+WFC-PP,5.25,Finance,Major Banks,Wells Fargo & Co.,57976
+WFC-PN,5.2,Finance,Major Banks,Wells Fargo & Co.,78696
+WFC-PO,5.125,Finance,Major Banks,Wells Fargo & Co.,76358
+WFC-PZ,4.75,Finance,Major Banks,Wells Fargo & Co.,1816437
+ZIONL,6.95,Finance,Major Banks,Zions Bancorporation,3637
+ZIONO,6.3,Finance,Major Banks,Zions Bancorporation,13516
+ZIONN,5.75,Finance,Major Banks,Zions Bancorporation,13322
+ZIONP,0.0,Finance,Major Banks,Zions Bancorporation,3767
+AEB,0.0,Finance,Multi-Line Insurance,AEGON NV,26376
+AXS-PE,5.5,Finance,Multi-Line Insurance,AXIS Capital Holdings Ltd.,47964
+AIG-PA,5.85,Finance,Multi-Line Insurance,"American International Group, Inc.",63496
+ACGLO,5.45,Finance,Multi-Line Insurance,Arch Capital Group Ltd.,37413
+ACGLP,5.25,Finance,Multi-Line Insurance,Arch Capital Group Ltd.,53532
+ARGD,6.5,Finance,Multi-Line Insurance,"Argo Group US, Inc.",11755
+AGO-PB,6.875,Finance,Multi-Line Insurance,"Assured Guaranty Municipal Holdings, Inc.",22142
+AGO-PE,6.25,Finance,Multi-Line Insurance,"Assured Guaranty Municipal Holdings, Inc.",34213
+AGO-PF,5.6,Finance,Multi-Line Insurance,"Assured Guaranty Municipal Holdings, Inc.",12856
+PUK-P,6.75,Finance,Multi-Line Insurance,Prudential Plc,28483
+PUK-PA,6.5,Finance,Multi-Line Insurance,Prudential Plc,29953
+HGH,7.875,Finance,Multi-Line Insurance,"The Hartford Financial Services Group, Inc.",74300
+HIG-PG,6.0,Finance,Multi-Line Insurance,"The Hartford Financial Services Group, Inc.",37556
+WTREP,8.5,Finance,Multi-Line Insurance,Watford Holdings Ltd.,1524
+PIHPP,8.0,Finance,Property/Casualty Insurance,"1347 Property Insurance Holdings, Inc.",2405
+AFGH,6.0,Finance,Property/Casualty Insurance,"American Financial Group, Inc.",21939
+AFGB,5.875,Finance,Property/Casualty Insurance,"American Financial Group, Inc.",18575
+AFGC,5.125,Finance,Property/Casualty Insurance,"American Financial Group, Inc.",60757
+AHL-PC,5.95,Finance,Property/Casualty Insurance,Aspen Insurance Holdings Ltd.,33228
+AHL-PE,5.625,Finance,Property/Casualty Insurance,Aspen Insurance Holdings Ltd.,54226
+AHL-PD,5.625,Finance,Property/Casualty Insurance,Aspen Insurance Holdings Ltd.,27714
+CNFRL,6.75,Finance,Property/Casualty Insurance,"Conifer Holdings, Inc.",2661
+GBLIL,7.875,Finance,Property/Casualty Insurance,Global Indemnity Ltd.,13513
+GBLIZ,7.75,Finance,Property/Casualty Insurance,Global Indemnity Ltd.,14983
+MH-PA,8.25,Finance,Property/Casualty Insurance,Maiden Holdings Ltd.,13713
+MH-PC,7.125,Finance,Property/Casualty Insurance,Maiden Holdings Ltd.,12619
+MH-PD,6.7,Finance,Property/Casualty Insurance,Maiden Holdings Ltd.,11806
+MHLA,6.625,Finance,Property/Casualty Insurance,Maiden Holdings Ltd.,11893
+NGHCZ,7.625,Finance,Property/Casualty Insurance,National General Holdings Corp.,10999
+NGHCO,7.5,Finance,Property/Casualty Insurance,National General Holdings Corp.,26740
+NGHCN,7.5,Finance,Property/Casualty Insurance,National General Holdings Corp.,34860
+NGHCP,7.5,Finance,Property/Casualty Insurance,National General Holdings Corp.,5737
+RNR-PF,5.75,Finance,Property/Casualty Insurance,RenaissanceRe Holdings Ltd.,27862
+RNR-PE,5.375,Finance,Property/Casualty Insurance,RenaissanceRe Holdings Ltd.,31307
+ALL-PG,5.625,Finance,Property/Casualty Insurance,The Allstate Corp.,65295
+ALL-PH,5.1,Finance,Property/Casualty Insurance,The Allstate Corp.,186874
+ALL-PB,5.1,Finance,Property/Casualty Insurance,The Allstate Corp.,55970
+ALL-PI,4.75,Finance,Property/Casualty Insurance,The Allstate Corp.,75207
+THGA,6.35,Finance,Property/Casualty Insurance,"The Hanover Insurance Group, Inc.",23647
+WRB-PC,5.9,Finance,Property/Casualty Insurance,W.R. Berkley Corp.,23934
+WRB-PD,5.75,Finance,Property/Casualty Insurance,W.R. Berkley Corp.,41362
+WRB-PE,5.7,Finance,Property/Casualty Insurance,W.R. Berkley Corp.,27208
+WRB-PB,5.625,Finance,Property/Casualty Insurance,W.R. Berkley Corp.,145278
+WRB-PF,5.1,Finance,Property/Casualty Insurance,W.R. Berkley Corp.,100009
+BPYPP,6.5,Finance,Real Estate Development,Brookfield Property Partners LP,37691
+BPYPO,6.375,Finance,Real Estate Development,Brookfield Property Partners LP,49792
+BPYPN,5.75,Finance,Real Estate Development,Brookfield Property Partners LP,188281
+HTIA,7.375,Finance,Real Estate Development,"Healthcare Trust, Inc.",8549
+JCAP-PB,7.0,Finance,Real Estate Development,"Jernigan Capital, Inc.",6135
+LMRKP,8.0,Finance,Real Estate Development,Landmark Infrastructure Partners LP,6739
+LMRKO,7.9,Finance,Real Estate Development,Landmark Infrastructure Partners LP,13171
+LMRKN,0.0,Finance,Real Estate Development,Landmark Infrastructure Partners LP,4022
+MITT-PA,8.25,Finance,Real Estate Investment Trusts,"AG Mortgage Investment Trust, Inc.",17438
+MITT-PC,8.0,Finance,Real Estate Investment Trusts,"AG Mortgage Investment Trust, Inc.",32463
+MITT-PB,8.0,Finance,Real Estate Investment Trusts,"AG Mortgage Investment Trust, Inc.",42419
+AGNCN,7.0,Finance,Real Estate Investment Trusts,AGNC Investment Corp.,81802
+AGNCM,6.875,Finance,Real Estate Investment Trusts,AGNC Investment Corp.,66100
+AGNCO,6.5,Finance,Real Estate Investment Trusts,AGNC Investment Corp.,130785
+AGNCP,6.125,Finance,Real Estate Investment Trusts,AGNC Investment Corp.,833702
+ARR-PC,7.0,Finance,Real Estate Investment Trusts,"ARMOUR Residential REIT, Inc.",181375
+AFINP,7.5,Finance,Real Estate Investment Trusts,"American Finance Trust, Inc.",90265
+AMH-PD,6.5,Finance,Real Estate Investment Trusts,American Homes 4 Rent,21424
+AMH-PE,6.35,Finance,Real Estate Investment Trusts,American Homes 4 Rent,26917
+AMH-PH,6.25,Finance,Real Estate Investment Trusts,American Homes 4 Rent,11813
+AMH-PF,5.875,Finance,Real Estate Investment Trusts,American Homes 4 Rent,12326
+AMH-PG,5.875,Finance,Real Estate Investment Trusts,American Homes 4 Rent,11784
+NLY-PD,7.5,Finance,Real Estate Investment Trusts,"Annaly Capital Management, Inc.",103588
+NLY-PF,6.95,Finance,Real Estate Investment Trusts,"Annaly Capital Management, Inc.",149718
+NLY-PI,6.75,Finance,Real Estate Investment Trusts,"Annaly Capital Management, Inc.",97466
+NLY-PG,6.5,Finance,Real Estate Investment Trusts,"Annaly Capital Management, Inc.",112660
+ANH-PA,8.625,Finance,Real Estate Investment Trusts,Anworth Mortgage Asset Corp.,7179
+ANH-PC,7.625,Finance,Real Estate Investment Trusts,Anworth Mortgage Asset Corp.,17077
+ANH-PB,6.25,Finance,Real Estate Investment Trusts,Anworth Mortgage Asset Corp.,5284
+ABR-PC,8.5,Finance,Real Estate Investment Trusts,"Arbor Realty Trust, Inc.",5623
+ABR-PA,8.25,Finance,Real Estate Investment Trusts,"Arbor Realty Trust, Inc.",8105
+ABR-PB,7.75,Finance,Real Estate Investment Trusts,"Arbor Realty Trust, Inc.",6503
+AI-PC,8.25,Finance,Real Estate Investment Trusts,Arlington Asset Investment Corp.,12105
+AI-PB,7.0,Finance,Real Estate Investment Trusts,Arlington Asset Investment Corp.,2182
+AIC,6.75,Finance,Real Estate Investment Trusts,Arlington Asset Investment Corp.,7545
+AIW,6.625,Finance,Real Estate Investment Trusts,Arlington Asset Investment Corp.,4757
+AHH-PA,6.75,Finance,Real Estate Investment Trusts,"Armada Hoffler Properties, Inc.",4356
+AHT-PD,8.45,Finance,Real Estate Investment Trusts,"Ashford Hospitality Trust, Inc.",11426
+AHT-PH,7.5,Finance,Real Estate Investment Trusts,"Ashford Hospitality Trust, Inc.",19453
+AHT-PI,7.5,Finance,Real Estate Investment Trusts,"Ashford Hospitality Trust, Inc.",24066
+AHT-PF,7.375,Finance,Real Estate Investment Trusts,"Ashford Hospitality Trust, Inc.",26751
+AHT-PG,7.375,Finance,Real Estate Investment Trusts,"Ashford Hospitality Trust, Inc.",39314
+BRG-PA,8.25,Finance,Real Estate Investment Trusts,"Bluerock Residential Growth REIT, Inc.",14718
+BRG-PC,7.625,Finance,Real Estate Investment Trusts,"Bluerock Residential Growth REIT, Inc.",6012
+BRG-PD,7.125,Finance,Real Estate Investment Trusts,"Bluerock Residential Growth REIT, Inc.",9967
+BXP-PB,5.25,Finance,Real Estate Investment Trusts,"Boston Properties, Inc.",13673
+BHR-PD,8.25,Finance,Real Estate Investment Trusts,"Braemar Hotels & Resorts, Inc.",6720
+BHR-PB,5.5,Finance,Real Estate Investment Trusts,"Braemar Hotels & Resorts, Inc.",17085
+DTLA-P,7.625,Finance,Real Estate Investment Trusts,"Brookfield DTLA Fund Office Trust Investor, Inc.",10457
+BPYUP,6.375,Finance,Real Estate Investment Trusts,"Brookfield Property REIT, Inc.",43571
+CBL-PD,7.375,Finance,Real Estate Investment Trusts,"CBL & Associates Properties, Inc.",200824
+CBL-PE,6.625,Finance,Real Estate Investment Trusts,"CBL & Associates Properties, Inc.",63899
+CMO-PE,7.5,Finance,Real Estate Investment Trusts,Capstead Mortgage Corp.,57049
+CDR-PB,7.25,Finance,Real Estate Investment Trusts,"Cedar Realty Trust, Inc.",6883
+CDR-PC,6.5,Finance,Real Estate Investment Trusts,"Cedar Realty Trust, Inc.",17462
+CHMI-PB,8.25,Finance,Real Estate Investment Trusts,Cherry Hill Mortgage Investment Corp.,13242
+CHMI-PA,8.2,Finance,Real Estate Investment Trusts,Cherry Hill Mortgage Investment Corp.,18200
+CIM-PA,8.0,Finance,Real Estate Investment Trusts,Chimera Investment Corp.,33501
+CIM-PB,8.0,Finance,Real Estate Investment Trusts,Chimera Investment Corp.,70844
+CIM-PD,8.0,Finance,Real Estate Investment Trusts,Chimera Investment Corp.,57562
+CIM-PC,7.75,Finance,Real Estate Investment Trusts,Chimera Investment Corp.,62822
+CIO-PA,6.625,Finance,Real Estate Investment Trusts,"City Office REIT, Inc.",8130
+CLNY-PG,7.5,Finance,Real Estate Investment Trusts,"Colony Capital, Inc.",16554
+CLNY-PI,7.15,Finance,Real Estate Investment Trusts,"Colony Capital, Inc.",60997
+CLNY-PH,7.125,Finance,Real Estate Investment Trusts,"Colony Capital, Inc.",60452
+CLNY-PJ,7.125,Finance,Real Estate Investment Trusts,"Colony Capital, Inc.",59402
+DLR-PC,6.625,Finance,Real Estate Investment Trusts,"Digital Realty Trust, Inc.",21061
+DLR-PI,6.35,Finance,Real Estate Investment Trusts,"Digital Realty Trust, Inc.",27312
+DLR-PG,5.875,Finance,Real Estate Investment Trusts,"Digital Realty Trust, Inc.",25762
+DLR-PK,5.85,Finance,Real Estate Investment Trusts,"Digital Realty Trust, Inc.",27394
+DLR-PJ,5.25,Finance,Real Estate Investment Trusts,"Digital Realty Trust, Inc.",22436
+DLR-PL,5.2,Finance,Real Estate Investment Trusts,"Digital Realty Trust, Inc.",65116
+DHCNL,6.25,Finance,Real Estate Investment Trusts,Diversified Healthcare Trust,28043
+DHCNI,5.625,Finance,Real Estate Investment Trusts,Diversified Healthcare Trust,34735
+DX-PB,7.625,Finance,Real Estate Investment Trusts,"Dynex Capital, Inc.",30949
+DX-PC,6.9,Finance,Real Estate Investment Trusts,"Dynex Capital, Inc.",102950
+EPR-PG,5.75,Finance,Real Estate Investment Trusts,EPR Properties,22460
+EQC-PD,6.5,Finance,Real Estate Investment Trusts,Equity Commonwealth,11269
+XAN-PC,8.625,Finance,Real Estate Investment Trusts,Exantas Capital Corp.,34121
+FPI-PB,6.0,Finance,Real Estate Investment Trusts,"Farmland Partners, Inc.",15695
+FRT-PC,5.0,Finance,Real Estate Investment Trusts,Federal Realty Investment Trust,16249
+GOODM,7.0,Finance,Real Estate Investment Trusts,Gladstone Commercial Corp.,13711
+GOODN,6.625,Finance,Real Estate Investment Trusts,Gladstone Commercial Corp.,8889
+LANDP,6.375,Finance,Real Estate Investment Trusts,Gladstone Land Corp.,5232
+GMRE-PA,7.5,Finance,Real Estate Investment Trusts,"Global Medical REIT, Inc.",8585
+GNL-PA,7.25,Finance,Real Estate Investment Trusts,"Global Net Lease, Inc.",18314
+GNL-PB,6.875,Finance,Real Estate Investment Trusts,"Global Net Lease, Inc.",21846
+HT-PC,6.875,Finance,Real Estate Investment Trusts,Hersha Hospitality Trust,14000
+HT-PD,6.5,Finance,Real Estate Investment Trusts,Hersha Hospitality Trust,49872
+HT-PE,6.5,Finance,Real Estate Investment Trusts,Hersha Hospitality Trust,29611
+IIPR-PA,9.0,Finance,Real Estate Investment Trusts,"Innovative Industrial Properties, Inc.",3537
+IVR-PB,7.75,Finance,Real Estate Investment Trusts,"Invesco Mortgage Capital, Inc.",38157
+IVR-PA,7.75,Finance,Real Estate Investment Trusts,"Invesco Mortgage Capital, Inc.",36857
+IVR-PC,7.5,Finance,Real Estate Investment Trusts,"Invesco Mortgage Capital, Inc.",49477
+IRET-PC,6.625,Finance,Real Estate Investment Trusts,Investors Real Estate Trust,6285
+KIM-PM,5.25,Finance,Real Estate Investment Trusts,Kimco Realty Corp.,49265
+KIM-PL,5.125,Finance,Real Estate Investment Trusts,Kimco Realty Corp.,27132
+LXP-PC,6.5,Finance,Real Estate Investment Trusts,Lexington Realty Trust,3307
+MFO,8.0,Finance,Real Estate Investment Trusts,"MFA Financial, Inc.",51294
+MFA-PB,7.5,Finance,Real Estate Investment Trusts,"MFA Financial, Inc.",58620
+MFA-PC,6.5,Finance,Real Estate Investment Trusts,"MFA Financial, Inc.",369221
+MDRRP,8.0,Finance,Real Estate Investment Trusts,"Medalist Diversified REIT, Inc.",3278
+MAA-PI,8.5,Finance,Real Estate Investment Trusts,"Mid-America Apartment Communities, Inc.",1141
+MNR-PC,6.125,Finance,Real Estate Investment Trusts,Monmouth Real Estate Investment Corp.,99443
+NNN-PF,5.2,Finance,Real Estate Investment Trusts,"National Retail Properties, Inc.",40578
+NSA-PA,6.0,Finance,Real Estate Investment Trusts,National Storage Affiliates Trust,22234
+NRZ-PA,7.5,Finance,Real Estate Investment Trusts,New Residential Investment Corp.,69098
+NRZ-PB,7.125,Finance,Real Estate Investment Trusts,New Residential Investment Corp.,108503
+NRZ-PC,6.375,Finance,Real Estate Investment Trusts,New Residential Investment Corp.,353797
+NYMTN,8.0,Finance,Real Estate Investment Trusts,"New York Mortgage Trust, Inc.",59040
+NYMTM,7.875,Finance,Real Estate Investment Trusts,"New York Mortgage Trust, Inc.",111498
+NYMTO,7.875,Finance,Real Estate Investment Trusts,"New York Mortgage Trust, Inc.",26872
+NYMTP,7.75,Finance,Real Estate Investment Trusts,"New York Mortgage Trust, Inc.",18968
+OPINI,5.875,Finance,Real Estate Investment Trusts,Office Properties Income Trust,24794
+PSB-PX,5.25,Finance,Real Estate Investment Trusts,"PS Business Parks, Inc.",24906
+PSB-PW,5.2,Finance,Real Estate Investment Trusts,"PS Business Parks, Inc.",18247
+PSB-PY,5.2,Finance,Real Estate Investment Trusts,"PS Business Parks, Inc.",28350
+PSB-PZ,4.875,Finance,Real Estate Investment Trusts,"PS Business Parks, Inc.",69329
+PEB-PC,6.5,Finance,Real Estate Investment Trusts,Pebblebrook Hotel Trust,17843
+PEB-PD,6.375,Finance,Real Estate Investment Trusts,Pebblebrook Hotel Trust,19615
+PEB-PE,6.375,Finance,Real Estate Investment Trusts,Pebblebrook Hotel Trust,9646
+PEB-PF,6.3,Finance,Real Estate Investment Trusts,Pebblebrook Hotel Trust,19115
+PEI-PB,7.375,Finance,Real Estate Investment Trusts,Pennsylvania Real Estate Investment Trust,51610
+PEI-PC,7.2,Finance,Real Estate Investment Trusts,Pennsylvania Real Estate Investment Trust,107226
+PEI-PD,6.875,Finance,Real Estate Investment Trusts,Pennsylvania Real Estate Investment Trust,51531
+PMT-PA,8.125,Finance,Real Estate Investment Trusts,PennyMac Mortgage Investment Trust,22868
+PMT-PB,8.0,Finance,Real Estate Investment Trusts,PennyMac Mortgage Investment Trust,41222
+PLYM-PA,7.5,Finance,Real Estate Investment Trusts,"Plymouth Industrial REIT, Inc.",3590
+PW-PA,7.75,Finance,Real Estate Investment Trusts,Power REIT,2539
+PSA-PH,5.6,Finance,Real Estate Investment Trusts,Public Storage,41073
+PSA-PB,5.4,Finance,Real Estate Investment Trusts,Public Storage,54085
+PSA-PV,5.375,Finance,Real Estate Investment Trusts,Public Storage,41177
+PSA-PW,5.2,Finance,Real Estate Investment Trusts,Public Storage,38176
+PSA-PX,5.2,Finance,Real Estate Investment Trusts,Public Storage,21401
+PSA-PF,5.15,Finance,Real Estate Investment Trusts,Public Storage,22999
+PSA-PC,5.125,Finance,Real Estate Investment Trusts,Public Storage,19401
+PSA-PG,5.05,Finance,Real Estate Investment Trusts,Public Storage,24678
+PSA-PD,4.95,Finance,Real Estate Investment Trusts,Public Storage,31373
+PSA-PE,4.9,Finance,Real Estate Investment Trusts,Public Storage,35027
+PSA-PI,4.875,Finance,Real Estate Investment Trusts,Public Storage,40104
+PSA-PK,4.75,Finance,Real Estate Investment Trusts,Public Storage,56419
+PSA-PJ,4.7,Finance,Real Estate Investment Trusts,Public Storage,42353
+QTS-PA,7.125,Finance,Real Estate Investment Trusts,"QTS Realty Trust, Inc.",14068
+QTS-PB,6.5,Finance,Real Estate Investment Trusts,"QTS Realty Trust, Inc.",15674
+RLJ-PA,0.0,Finance,Real Estate Investment Trusts,RLJ Lodging Trust,85444
+RCA,7.0,Finance,Real Estate Investment Trusts,Ready Capital Corp.,9655
+RCB,6.2,Finance,Real Estate Investment Trusts,Ready Capital Corp.,19847
+RHE-PA,10.875,Finance,Real Estate Investment Trusts,"Regional Health Properties, Inc.",4129
+REXR-PA,5.875,Finance,Real Estate Investment Trusts,"Rexford Industrial Realty, Inc.",7749
+REXR-PB,5.875,Finance,Real Estate Investment Trusts,"Rexford Industrial Realty, Inc.",6256
+REXR-PC,5.625,Finance,Real Estate Investment Trusts,"Rexford Industrial Realty, Inc.",7972
+SITC-PA,6.375,Finance,Real Estate Investment Trusts,SITE Centers Corp.,17070
+SITC-PK,6.25,Finance,Real Estate Investment Trusts,SITE Centers Corp.,17979
+SLG-PI,6.5,Finance,Real Estate Investment Trusts,SL Green Realty Corp.,22185
+STAG-PC,6.875,Finance,Real Estate Investment Trusts,"STAG Industrial, Inc.",7305
+SCCB,7.125,Finance,Real Estate Investment Trusts,Sachem Capital Corp.,4396
+SACC,6.875,Finance,Real Estate Investment Trusts,Sachem Capital Corp.,9530
+BFS-PD,6.125,Finance,Real Estate Investment Trusts,"Saul Centers, Inc.",4892
+BFS-PE,6.0,Finance,Real Estate Investment Trusts,"Saul Centers, Inc.",9079
+SRG-PA,7.0,Finance,Real Estate Investment Trusts,Seritage Growth Properties,17158
+SPG-PJ,8.375,Finance,Real Estate Investment Trusts,"Simon Property Group, Inc.",1515
+SOHON,8.25,Finance,Real Estate Investment Trusts,"Sotherly Hotels, Inc.",9576
+SOHOB,8.0,Finance,Real Estate Investment Trusts,"Sotherly Hotels, Inc.",7450
+SOHOO,7.875,Finance,Real Estate Investment Trusts,"Sotherly Hotels, Inc.",7370
+SRC-PA,6.0,Finance,Real Estate Investment Trusts,"Spirit Realty Capital, Inc.",21024
+INN-PD,6.45,Finance,Real Estate Investment Trusts,"Summit Hotel Properties, Inc.",6744
+INN-PE,6.25,Finance,Real Estate Investment Trusts,"Summit Hotel Properties, Inc.",18147
+SHO-PE,6.95,Finance,Real Estate Investment Trusts,"Sunstone Hotel Investors, Inc.",14860
+SHO-PF,6.45,Finance,Real Estate Investment Trusts,"Sunstone Hotel Investors, Inc.",14417
+TCO-PJ,6.5,Finance,Real Estate Investment Trusts,"Taubman Centers, Inc.",22224
+TCO-PK,6.25,Finance,Real Estate Investment Trusts,"Taubman Centers, Inc.",17316
+TWO-PA,8.125,Finance,Real Estate Investment Trusts,Two Harbors Investment Corp.,31607
+TWO-PD,7.75,Finance,Real Estate Investment Trusts,Two Harbors Investment Corp.,22389
+TWO-PB,7.625,Finance,Real Estate Investment Trusts,Two Harbors Investment Corp.,53407
+TWO-PE,7.5,Finance,Real Estate Investment Trusts,Two Harbors Investment Corp.,53898
+TWO-PC,7.25,Finance,Real Estate Investment Trusts,Two Harbors Investment Corp.,64307
+UMH-PB,8.0,Finance,Real Estate Investment Trusts,"UMH Properties, Inc.",13303
+UMH-PC,6.75,Finance,Real Estate Investment Trusts,"UMH Properties, Inc.",30727
+UMH-PD,6.375,Finance,Real Estate Investment Trusts,"UMH Properties, Inc.",84075
+UBP-PH,6.25,Finance,Real Estate Investment Trusts,"Urstadt Biddle Properties, Inc.",3707
+UBP-PK,5.875,Finance,Real Estate Investment Trusts,"Urstadt Biddle Properties, Inc.",15927
+VER-PF,6.7,Finance,Real Estate Investment Trusts,"VEREIT, Inc.",168317
+VNO-PK,5.7,Finance,Real Estate Investment Trusts,Vornado Realty Trust,31084
+VNO-PL,5.4,Finance,Real Estate Investment Trusts,Vornado Realty Trust,28459
+VNO-PM,5.25,Finance,Real Estate Investment Trusts,Vornado Realty Trust,47410
+WPG-PH,7.5,Finance,Real Estate Investment Trusts,"Washington Prime Group, Inc.",41693
+WPG-PI,6.875,Finance,Real Estate Investment Trusts,"Washington Prime Group, Inc.",33413
+WHLRP,9.0,Finance,Real Estate Investment Trusts,"Wheeler Real Estate Investment Trust, Inc.",3754
+WHLRD,8.75,Finance,Real Estate Investment Trusts,"Wheeler Real Estate Investment Trust, Inc.",7448
+STAR-PD,8.0,Finance,Real Estate Investment Trusts,"iStar, Inc.",9415
+STAR-PG,7.65,Finance,Real Estate Investment Trusts,"iStar, Inc.",12493
+STAR-PI,7.5,Finance,Real Estate Investment Trusts,"iStar, Inc.",16299
+ASB-PC,6.125,Finance,Regional Banks,Associated Banc-Corp,3650
+ASB-PE,5.875,Finance,Regional Banks,Associated Banc-Corp,6400
+ASB-PD,5.375,Finance,Regional Banks,Associated Banc-Corp,4952
+BOKFL,5.375,Finance,Regional Banks,BOK Financial Corp.,12515
+BANC-PD,7.375,Finance,Regional Banks,"Banc of California, Inc.",14728
+BANC-PE,7.0,Finance,Regional Banks,"Banc of California, Inc.",13261
+BXS-PA,5.5,Finance,Regional Banks,BancorpSouth Bank,39471
+CFG-PD,6.35,Finance,Regional Banks,"Citizens Financial Group, Inc. (Rhode Island)",44582
+CFG-PE,5.0,Finance,Regional Banks,"Citizens Financial Group, Inc. (Rhode Island)",109840
+CBSHP,6.0,Finance,Regional Banks,"Commerce Bancshares, Inc. (Missouri)",10589
+CUBI-PC,7.0,Finance,Regional Banks,"Customers Bancorp, Inc.",6095
+CUBI-PD,6.5,Finance,Regional Banks,"Customers Bancorp, Inc.",2138
+CUBI-PE,6.45,Finance,Regional Banks,"Customers Bancorp, Inc.",6494
+CUBI-PF,6.0,Finance,Regional Banks,"Customers Bancorp, Inc.",13037
+CUBB,5.375,Finance,Regional Banks,"Customers Bancorp, Inc.",17233
+FNB-PE,7.25,Finance,Regional Banks,F.N.B. Corp. (Pennsylvania),7018
+FITBI,6.625,Finance,Regional Banks,Fifth Third Bancorp,44376
+FITBP,6.0,Finance,Regional Banks,Fifth Third Bancorp,9794
+FITBO,4.95,Finance,Regional Banks,Fifth Third Bancorp,56141
+FCNCP,5.375,Finance,Regional Banks,"First Citizens BancShares, Inc. (North Carolina)",319369
+FHN-PA,6.2,Finance,Regional Banks,First Horizon National Corp. (Tennessee),8124
+INBKZ,6.0,Finance,Regional Banks,First Internet Bancorp,6259
+INBKL,6.0,Finance,Regional Banks,First Internet Bancorp,1737
+FRC-PF,5.7,Finance,Regional Banks,"First Republic Bank (San Francisco, California)",8505
+FRC-PG,5.5,Finance,Regional Banks,"First Republic Bank (San Francisco, California)",26821
+FRC-PI,5.5,Finance,Regional Banks,"First Republic Bank (San Francisco, California)",28781
+FRC-PH,5.125,Finance,Regional Banks,"First Republic Bank (San Francisco, California)",12149
+FRC-PJ,4.7,Finance,Regional Banks,"First Republic Bank (San Francisco, California)",162821
+HWCPL,5.95,Finance,Regional Banks,Hancock Whitney Corp.,7850
+HBANO,6.25,Finance,Regional Banks,"Huntington Bancshares, Inc.",66087
+HBANN,5.875,Finance,Regional Banks,"Huntington Bancshares, Inc.",6704
+MBNKP,8.0,Finance,Regional Banks,Medallion Bank,9117
+MBINP,7.0,Finance,Regional Banks,Merchants Bancorp (Indiana),2867
+MBINO,6.0,Finance,Regional Banks,Merchants Bancorp (Indiana),21687
+NTRSO,4.7,Finance,Regional Banks,Northern Trust Corp.,86386
+SIVBP,5.25,Finance,Regional Banks,SVB Financial Group,95122
+STT-PD,5.9,Finance,Regional Banks,State Street Corp.,101608
+STT-PG,5.35,Finance,Regional Banks,State Street Corp.,58731
+STL-PA,6.5,Finance,Regional Banks,"Sterling Bancorp (Montebello, New York)",11645
+SNV-PD,6.3,Finance,Regional Banks,Synovus Financial Corp.,25361
+SNV-PE,5.875,Finance,Regional Banks,Synovus Financial Corp.,48150
+TCBIP,6.5,Finance,Regional Banks,"Texas Capital Bancshares, Inc.",12506
+TCBIL,6.5,Finance,Regional Banks,"Texas Capital Bancshares, Inc.",5790
+TSCAP,6.75,Finance,Regional Banks,"TriState Capital Holdings, Inc.",2701
+TSCBP,6.375,Finance,Regional Banks,"TriState Capital Holdings, Inc.",7628
+TFC-PH,5.625,Finance,Regional Banks,Truist Financial Corp.,55263
+TFC-PG,5.2,Finance,Regional Banks,Truist Financial Corp.,46154
+TFC-PF,5.2,Finance,Regional Banks,Truist Financial Corp.,38367
+TFC-PI,0.0,Finance,Regional Banks,Truist Financial Corp.,22923
+VLYPP,6.25,Finance,Regional Banks,Valley National Bancorp,7667
+VLYPO,5.5,Finance,Regional Banks,Valley National Bancorp,7046
+WALA,6.25,Finance,Regional Banks,Western Alliance Bancorporation,12504
+WTFCM,6.5,Finance,Regional Banks,Wintrust Financial Corp.,9515
+AXO,6.25,Finance,Savings Banks,"Axos Financial, Inc.",2673
+DCOMP,5.5,Finance,Savings Banks,"Dime Community Bancshares, Inc.",60379
+IBKCP,6.625,Finance,Savings Banks,IBERIABANK Corp.,4968
+IBKCO,6.6,Finance,Savings Banks,IBERIABANK Corp.,6176
+IBKCN,6.1,Finance,Savings Banks,IBERIABANK Corp.,15835
+NYCB-PA,6.375,Finance,Savings Banks,"New York Community Bancorp, Inc.",43131
+WBS-PF,5.25,Finance,Savings Banks,Webster Financial Corp.,12740
+ATH-PA,6.35,Finance,Specialty Insurance,Athene Holding Ltd.,93280
+ATH-PB,5.625,Finance,Specialty Insurance,Athene Holding Ltd.,65376
+PRE-PH,7.25,Finance,Specialty Insurance,PartnerRe Ltd.,43023
+PRE-PG,6.5,Finance,Specialty Insurance,PartnerRe Ltd.,12800
+PRE-PF,5.875,Finance,Specialty Insurance,PartnerRe Ltd.,5162
+PRE-PI,5.875,Finance,Specialty Insurance,PartnerRe Ltd.,17368
+CDMOP,10.5,Health Technology,Biotechnology,"Avid Bioservices, Inc.",4544
+CYCCP,6.0,Health Technology,Biotechnology,"Cyclacel Pharmaceuticals, Inc.",382
+FBIOP,9.375,Health Technology,Biotechnology,"Fortress Biotech, Inc.",27499
+DHR-PA,4.75,Health Technology,Medical Specialties,Danaher Corp.,12175
+DRADP,10.0,Health Technology,Medical Specialties,Digirad Corp.,3281
+NBR-PA,6.0,Industrial Services,Contract Drilling,Nabors Industries Ltd.,62941
+DCP-PC,7.95,Industrial Services,Oil & Gas Pipelines,DCP Midstream LP,28161
+DCP-PB,7.875,Industrial Services,Oil & Gas Pipelines,DCP Midstream LP,31955
+ENBA,6.375,Industrial Services,Oil & Gas Pipelines,"Enbridge, Inc.",64104
+ETP-PD,7.625,Industrial Services,Oil & Gas Pipelines,Energy Transfer Operating LP,97858
+ETP-PE,7.6,Industrial Services,Oil & Gas Pipelines,Energy Transfer Operating LP,127660
+ETP-PC,7.375,Industrial Services,Oil & Gas Pipelines,Energy Transfer Operating LP,118034
+NGL-PC,9.625,Industrial Services,Oil & Gas Pipelines,NGL Energy Partners LP,22472
+NGL-PB,9.0,Industrial Services,Oil & Gas Pipelines,NGL Energy Partners LP,56477
+NSS,7.625,Industrial Services,Oil & Gas Pipelines,NuStar Logistics LP,80801
+MINDP,9.0,Industrial Services,Oilfield Services/Equipment,"Mitcham Industries, Inc.",6228
+NCV-PA,5.625,Miscellaneous,Investment Trusts/Mutual Funds,AllianzGI Convertible & Income Fund,10765
+NCZ-PA,5.5,Miscellaneous,Investment Trusts/Mutual Funds,AllianzGI Convertible & Income Fund II,19004
+BCV-PA,5.375,Miscellaneous,Investment Trusts/Mutual Funds,Bancroft Fund Ltd.,2875
+ECCB,7.75,Miscellaneous,Investment Trusts/Mutual Funds,"Eagle Point Credit Co., Inc.",7380
+ECCY,6.75,Miscellaneous,Investment Trusts/Mutual Funds,"Eagle Point Credit Co., Inc.",6578
+ECCX,6.6875,Miscellaneous,Investment Trusts/Mutual Funds,"Eagle Point Credit Co., Inc.",5920
+ECF-PA,5.25,Miscellaneous,Investment Trusts/Mutual Funds,Ellsworth Growth & Income Fund Ltd.,4117
+GGN-PB,0.0,Miscellaneous,Investment Trusts/Mutual Funds,"GAMCO Global Gold, Natural Resources & Income Trust",6081
+GAB-PJ,5.45,Miscellaneous,Investment Trusts/Mutual Funds,"Gabelli Equity Trust, Inc.",5567
+GAB-PH,5.0,Miscellaneous,Investment Trusts/Mutual Funds,"Gabelli Equity Trust, Inc.",6321
+GAB-PG,5.0,Miscellaneous,Investment Trusts/Mutual Funds,"Gabelli Equity Trust, Inc.",6858
+GAB-PK,5.0,Miscellaneous,Investment Trusts/Mutual Funds,"Gabelli Equity Trust, Inc.",27870
+GLU-PA,0.0,Miscellaneous,Investment Trusts/Mutual Funds,Gabelli Global Utility & Income Trust,888
+GLU-PB,0.0,Miscellaneous,Investment Trusts/Mutual Funds,Gabelli Global Utility & Income Trust,1531
+GGO-PA,0.0,Miscellaneous,Investment Trusts/Mutual Funds,Gabelli Go Anywhere Trust,1131
+GUT-PA,5.625,Miscellaneous,Investment Trusts/Mutual Funds,Gabelli Utility Trust,4008
+GUT-PC,5.375,Miscellaneous,Investment Trusts/Mutual Funds,Gabelli Utility Trust,3569
+GNT-PA,5.2,Miscellaneous,Investment Trusts/Mutual Funds,"Gamco Natural Resources, Gold & Income Trust",3533
+GAM-PB,5.95,Miscellaneous,Investment Trusts/Mutual Funds,"General American Investors Co., Inc.",10608
+HCAPZ,6.125,Miscellaneous,Investment Trusts/Mutual Funds,Harvest Capital Credit Corp.,3713
+HFRO-PA,5.375,Miscellaneous,Investment Trusts/Mutual Funds,Highland Income Fund,42496
+HTFA,6.25,Miscellaneous,Investment Trusts/Mutual Funds,Horizon Technology Finance Corp.,3459
+CMFNL,6.125,Miscellaneous,Investment Trusts/Mutual Funds,"Investcorp Credit Management BDC, Inc.",9827
+MCX,6.5,Miscellaneous,Investment Trusts/Mutual Funds,Medley Capital Corp.,6856
+MCV,6.125,Miscellaneous,Investment Trusts/Mutual Funds,Medley Capital Corp.,7296
+OCCIP,6.875,Miscellaneous,Investment Trusts/Mutual Funds,"OFS Credit Co., Inc.",1961
+OXLCO,7.5,Miscellaneous,Investment Trusts/Mutual Funds,Oxford Lane Capital Corp.,15689
+OXLCM,6.75,Miscellaneous,Investment Trusts/Mutual Funds,Oxford Lane Capital Corp.,6894
+OXLCP,6.25,Miscellaneous,Investment Trusts/Mutual Funds,Oxford Lane Capital Corp.,107660
+PRIF-PD,7.0,Miscellaneous,Investment Trusts/Mutual Funds,"Priority Income Fund, Inc.",2086
+PRIF-PC,6.625,Miscellaneous,Investment Trusts/Mutual Funds,"Priority Income Fund, Inc.",5564
+PRIF-PF,6.625,Miscellaneous,Investment Trusts/Mutual Funds,"Priority Income Fund, Inc.",19384
+PRIF-PA,6.375,Miscellaneous,Investment Trusts/Mutual Funds,"Priority Income Fund, Inc.",6183
+PRIF-PE,6.375,Miscellaneous,Investment Trusts/Mutual Funds,"Priority Income Fund, Inc.",5353
+PRIF-PB,6.25,Miscellaneous,Investment Trusts/Mutual Funds,"Priority Income Fund, Inc.",2325
+RMPL-P,5.875,Miscellaneous,Investment Trusts/Mutual Funds,Rivernorth Marketplace Lending Corp.,3934
+JBN,0.0,Miscellaneous,Investment Trusts/Mutual Funds,"Select Asset, Inc.",8266
+JBR,0.0,Miscellaneous,Investment Trusts/Mutual Funds,"Select Asset, Inc.",2140
+SPE-PB,3.5,Miscellaneous,Investment Trusts/Mutual Funds,"Special Opportunities Fund, Inc.",3386
+GDL-PC,4.0,Miscellaneous,Investment Trusts/Mutual Funds,The GDL Fund,3629
+GDV-PA,5.875,Miscellaneous,Investment Trusts/Mutual Funds,The Gabelli Dividend & Income Trust,6931
+GDV-PH,5.375,Miscellaneous,Investment Trusts/Mutual Funds,The Gabelli Dividend & Income Trust,20146
+GDV-PG,5.25,Miscellaneous,Investment Trusts/Mutual Funds,The Gabelli Dividend & Income Trust,6348
+GGZ-PA,5.45,Miscellaneous,Investment Trusts/Mutual Funds,The Gabelli Global Small & Mid Cap Value Trust,3372
+GRX-PB,5.875,Miscellaneous,Investment Trusts/Mutual Funds,The Gabelli Healthcare & WellnessRx Trust,2953
+GGT-PE,5.125,Miscellaneous,Investment Trusts/Mutual Funds,"The Gabelli Multimedia Trust, Inc.",4096
+GGT-PG,5.125,Miscellaneous,Investment Trusts/Mutual Funds,"The Gabelli Multimedia Trust, Inc.",19632
+TY-P,0.0,Miscellaneous,Investment Trusts/Mutual Funds,Tri-Continental Corp.,1410
+SFB,5.2,NoData,NoData,NoData,14297
+TFC-PJ,0.0,NoData,NoData,NoData,0
+AYTUP,0.0,NoData,NoData,NoData,0
+HL-PB,0.0,Non-Energy Minerals,Precious Metals,Hecla Mining Co.,541
+CHSCP,8.0,Process Industries,Agricultural Commodities/Milling,"CHS, Inc.",23007
+CHSCO,7.875,Process Industries,Agricultural Commodities/Milling,"CHS, Inc.",35839
+CHSCL,7.5,Process Industries,Agricultural Commodities/Milling,"CHS, Inc.",53216
+CHSCN,7.1,Process Industries,Agricultural Commodities/Milling,"CHS, Inc.",27158
+CHSCM,6.75,Process Industries,Agricultural Commodities/Milling,"CHS, Inc.",38302
+ELAT,5.0,Process Industries,Agricultural Commodities/Milling,"Elanco Animal Health, Inc.",310486
+AVTR-PA,6.25,Process Industries,Chemicals: Specialty,"Avantor, Inc.",83313
+CTA-PA,0.0,Process Industries,Chemicals: Specialty,E.I. du Pont de Nemours & Co.,676
+CTA-PB,0.0,Process Industries,Chemicals: Specialty,E.I. du Pont de Nemours & Co.,2041
+NMK-PC,3.9,Producer Manufacturing,Electrical Products,Niagara Mohawk Power Corp.,140
+NMK-PB,3.6,Producer Manufacturing,Electrical Products,Niagara Mohawk Power Corp.,178
+SPLP-PA,6.0,Producer Manufacturing,Industrial Conglomerates,Steel Partners Holdings LP,21469
+CFXA,5.75,Producer Manufacturing,Industrial Machinery,Colfax Corp.,54044
+PBI-PB,6.7,Producer Manufacturing,Office Equipment/Supplies,"Pitney Bowes, Inc.",135564
+NAV-PD,0.0,Producer Manufacturing,Trucks/Construction/Farm Machinery,Navistar International Corp.,1478
+QVCD,6.375,Retail Trade,Internet Retail,"QVC, Inc.",29085
+QVCC,6.25,Retail Trade,Internet Retail,"QVC, Inc.",216943
+YGYIP,9.75,Retail Trade,Internet Retail,"Youngevity International, Inc.",5571
+HLM-P,11.6,Retail Trade,Specialty Stores,Hillman Group Capital Trust,8392
+MTBCP,11.0,Technology Services,Information Technology Services,"MTBC, Inc.",22520
+GECCL,6.5,Technology Services,Internet Software/Services,"Great Elm Capital Group, Inc.",6998
+CHNGU,6.0,Technology Services,Packaged Software,"Change Healthcare, Inc.",86401
+AIRTP,8.0,Transportation,Air Freight/Couriers,"Air T, Inc.",3628
+CMRE-PE,8.875,Transportation,Marine Shipping,Costamare Inc.,35457
+CMRE-PD,8.75,Transportation,Marine Shipping,Costamare Inc.,22788
+CMRE-PC,8.5,Transportation,Marine Shipping,Costamare Inc.,14778
+CMRE-PB,7.625,Transportation,Marine Shipping,Costamare Inc.,7269
+DSX-PB,8.875,Transportation,Marine Shipping,"Diana Shipping, Inc.",13486
+DLNG-PA,9.0,Transportation,Marine Shipping,Dynagas LNG Partners LP,14920
+DLNG-PB,8.75,Transportation,Marine Shipping,Dynagas LNG Partners LP,17958
+GLOG-PA,8.75,Transportation,Marine Shipping,GasLog Ltd.,27465
+GLOP-PA,8.625,Transportation,Marine Shipping,GasLog Partners LP,56849
+GLOP-PC,8.5,Transportation,Marine Shipping,GasLog Partners LP,66599
+GLOP-PB,8.2,Transportation,Marine Shipping,GasLog Partners LP,41477
+GMLPP,8.75,Transportation,Marine Shipping,Golar LNG Partners LP,51096
+HMLP-PA,8.75,Transportation,Marine Shipping,Höegh Lng Partners LP,39768
+INSW-PA,8.5,Transportation,Marine Shipping,"International Seaways, Inc.",7702
+NM-PG,8.75,Transportation,Marine Shipping,"Navios Maritime Holdings, Inc.",2353
+NM-PH,8.625,Transportation,Marine Shipping,"Navios Maritime Holdings, Inc.",2125
+SB-PC,8.0,Transportation,Marine Shipping,"Safe Bulkers, Inc.",7829
+SB-PD,8.0,Transportation,Marine Shipping,"Safe Bulkers, Inc.",10854
+SBNA,6.75,Transportation,Marine Shipping,"Scorpio Tankers, Inc.",10415
+ATCO-PE,8.25,Transportation,Marine Shipping,Seaspan Corp.,44451
+ATCO-PG,8.2,Transportation,Marine Shipping,Seaspan Corp.,67370
+ATCO-PI,8.0,Transportation,Marine Shipping,Seaspan Corp.,42345
+ATCO-PH,7.875,Transportation,Marine Shipping,Seaspan Corp.,79569
+SBLKZ,8.3,Transportation,Marine Shipping,Star Bulk Carriers Corp.,8731
+TGP-PA,9.0,Transportation,Marine Shipping,Teekay LNG Partners LP,29149
+TGP-PB,8.5,Transportation,Marine Shipping,Teekay LNG Partners LP,57878
+TOO-PE,8.875,Transportation,Marine Shipping,Teekay Offshore Partners LP,34842
+TOO-PB,8.5,Transportation,Marine Shipping,Teekay Offshore Partners LP,28271
+TOO-PA,7.25,Transportation,Marine Shipping,Teekay Offshore Partners LP,28158
+TNP-PF,9.5,Transportation,Marine Shipping,Tsakos Energy Navigation Ltd.,40898
+TNP-PE,9.25,Transportation,Marine Shipping,Tsakos Energy Navigation Ltd.,35898
+TNP-PC,8.875,Transportation,Marine Shipping,Tsakos Energy Navigation Ltd.,11302
+TNP-PD,8.75,Transportation,Marine Shipping,Tsakos Energy Navigation Ltd.,12291
+GFLU,6.0,Transportation,Trucking,"GFL Environmental, Inc.",712277
+ALP-PQ,5.0,Utilities,Electric Utilities,Alabama Power Co.,20554
+AQNA,6.875,Utilities,Electric Utilities,Algonquin Power & Utilities Corp.,29378
+AQNB,6.2,Utilities,Electric Utilities,Algonquin Power & Utilities Corp.,25099
+AEP-PB,6.125,Utilities,Electric Utilities,"American Electric Power Co., Inc.",90329
+BEP-PA,5.25,Utilities,Electric Utilities,Brookfield Renewable Partners LP,103066
+CMSC,5.875,Utilities,Electric Utilities,CMS Energy Corp.,38572
+CMSD,5.875,Utilities,Electric Utilities,CMS Energy Corp.,67910
+CMSA,5.625,Utilities,Electric Utilities,CMS Energy Corp.,18919
+CNP-PB,7.0,Utilities,Electric Utilities,"CenterPoint Energy, Inc.",161600
+CMS-PB,0.0,Utilities,Electric Utilities,Consumers Energy Co.,407
+DTP,6.25,Utilities,Electric Utilities,DTE Energy Co.,216266
+DTY,6.0,Utilities,Electric Utilities,DTE Energy Co.,25305
+DTJ,5.375,Utilities,Electric Utilities,DTE Energy Co.,24171
+DTQ,5.25,Utilities,Electric Utilities,DTE Energy Co.,20969
+DTW,5.25,Utilities,Electric Utilities,DTE Energy Co.,25378
+DCUE,7.25,Utilities,Electric Utilities,"Dominion Energy, Inc.",116538
+DRUA,5.25,Utilities,Electric Utilities,"Dominion Energy, Inc.",69900
+DUK-PA,5.75,Utilities,Electric Utilities,Duke Energy Corp.,119409
+DUKB,5.625,Utilities,Electric Utilities,Duke Energy Corp.,50211
+DUKH,5.125,Utilities,Electric Utilities,Duke Energy Corp.,42774
+EAB,4.9,Utilities,Electric Utilities,Entergy Arkansas LLC,13060
+EAI,4.875,Utilities,Electric Utilities,Entergy Arkansas LLC,34268
+EAE,4.75,Utilities,Electric Utilities,Entergy Arkansas LLC,14811
+ELJ,5.25,Utilities,Electric Utilities,Entergy Louisiana LLC,18437
+ELC,4.875,Utilities,Electric Utilities,Entergy Louisiana LLC,22601
+ELU,4.7,Utilities,Electric Utilities,Entergy Louisiana LLC,9991
+EMP,4.9,Utilities,Electric Utilities,Entergy Mississippi LLC,19192
+ENO,5.5,Utilities,Electric Utilities,Entergy New Orleans LLC,13207
+ENJ,5.0,Utilities,Electric Utilities,Entergy New Orleans LLC,3087
+EZT,5.625,Utilities,Electric Utilities,"Entergy Texas, Inc.",9308
+ETI-P,5.375,Utilities,Electric Utilities,"Entergy Texas, Inc.",4822
+GNE-PA,0.0,Utilities,Electric Utilities,Genie Energy Ltd.,9648
+GPJA,5.0,Utilities,Electric Utilities,Georgia Power Co.,24142
+IPLDP,5.1,Utilities,Electric Utilities,Interstate Power & Light Co.,22009
+JE-PA,8.5,Utilities,Electric Utilities,"Just Energy Group, Inc.",18062
+NEE-PP,5.279,Utilities,Electric Utilities,"NextEra Energy, Inc.",0
+NEE-PO,4.872,Utilities,Electric Utilities,"NextEra Energy, Inc.",310520
+SCE-PE,4.78,Utilities,Electric Utilities,Southern California Edison Co.,5568
+SCE-PD,4.32,Utilities,Electric Utilities,Southern California Edison Co.,2338
+SCE-PC,4.24,Utilities,Electric Utilities,Southern California Edison Co.,3038
+SCE-PB,4.08,Utilities,Electric Utilities,Southern California Edison Co.,2954
+SPKEP,8.75,Utilities,Electric Utilities,"Spark Energy, Inc.",14278
+SOJA,6.25,Utilities,Electric Utilities,The Southern Co.,114499
+SOJB,5.25,Utilities,Electric Utilities,The Southern Co.,62581
+SOJC,5.25,Utilities,Electric Utilities,The Southern Co.,41159
+SOJD,4.95,Utilities,Electric Utilities,The Southern Co.,553395
+NI-PB,6.5,Utilities,Gas Distributors,"NiSource, Inc.",38425
+SREA,5.75,Utilities,Gas Distributors,Sempra Energy,107329
+SJIU,7.25,Utilities,Gas Distributors,"South Jersey Industries, Inc.",45065
+SJIJ,5.625,Utilities,Gas Distributors,"South Jersey Industries, Inc.",27573
+SR-PA,5.9,Utilities,Gas Distributors,"Spire, Inc. (Missouri)",30533
+WTRU,6.0,Utilities,Water Utilities,"Aqua America, Inc.",120268
