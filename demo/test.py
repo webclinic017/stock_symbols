@@ -23,9 +23,10 @@ stock_list_industries_map = {
 	          "Packaged Software", "NoData"]
 }
 
+
 def invert_dict(dic):
 	return dict((val, key) for key in dic for val in dic[key])
-	
+
 
 debt_sec = retrieve_debt_sec_dataset()
 
@@ -41,11 +42,29 @@ debt_sec = debt_sec.sort_values(["sector", "industry", "company_name", "coupon_r
 inverted = invert_dict(stock_list_industries_map)
 
 debt_sec["stock_list"] = debt_sec["industry"].map(inverted)
-stock_lists = debt_sec[["symbol", "stock_list"]]
+stock_lists = debt_sec[["stock_list", "company_name", "symbol", "coupon_rate"]]
 
-x = stock_lists.groupby("stock_list").sort_values(ascending=False).reset_index()
+def order_symbols_groups_by_criteria(data):
+	groups = data.groupby("company_name")
+	x = sorted(groups, key=lambda k: len(groups.groups[k]), reverse=True)
+	groups.groups = x
+	return groups
+
+x = stock_lists.groupby("stock_list").apply(order_symbols_groups_by_criteria)
 
 # g = df.groupby('A')
 # sorted(g,  # iterates pairs of (key, corresponding subDataFrame)
 #                 key=lambda x: len(x[1]),  # sort by number of rows (len of subDataFrame)
 #                 reverse=True)  # reverse the sort i.e. largest first
+
+# group = next(iter(x))
+#
+# inner_groups = group.groupby("company_name")
+#
+# sorted = sorted(inner_groups, key=lambda x: len(x[1]), reverse=True)
+# dfs = [tuple[1] for tuple in sorted]
+# df = pd.concat(dfs)
+
+
+
+
