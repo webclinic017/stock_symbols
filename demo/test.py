@@ -1,5 +1,6 @@
 import pandas as pd
 
+from stock_symbols.io.file import write_to_file
 from stock_symbols.retrieve.debt_securities.dataset import retrieve_debt_sec_dataset
 
 stock_list_industries_map = {
@@ -23,12 +24,16 @@ stock_list_industries_map = {
 	          "Packaged Software", "NoData"]
 }
 
+STOCK_LIST_FILE_PATH = "/home/hristocr/googledrive/Trading/stock_sorters_gen/"
+
 
 def invert_dict(dic):
 	return dict((val, key) for key in dic for val in dic[key])
 
 
 debt_sec = retrieve_debt_sec_dataset()
+
+debt_sec["symbol"] = debt_sec["symbol"].str.replace("-P", "p")
 
 debt_sec = debt_sec[["symbol", "coupon_rate", "sector", "industry", "company_name", "month_3_aver_vol"]]
 
@@ -44,27 +49,16 @@ inverted = invert_dict(stock_list_industries_map)
 debt_sec["stock_list"] = debt_sec["industry"].map(inverted)
 stock_lists = debt_sec[["stock_list", "company_name", "symbol", "coupon_rate"]]
 
-def order_symbols_groups_by_criteria(data):
-	groups = data.groupby("company_name")
-	x = sorted(groups, key=lambda k: len(groups.groups[k]), reverse=True)
-	groups.groups = x
-	return groups
 
-x = stock_lists.groupby("stock_list").apply(order_symbols_groups_by_criteria)
-
-# g = df.groupby('A')
-# sorted(g,  # iterates pairs of (key, corresponding subDataFrame)
-#                 key=lambda x: len(x[1]),  # sort by number of rows (len of subDataFrame)
-#                 reverse=True)  # reverse the sort i.e. largest first
-
-# group = next(iter(x))
-#
-# inner_groups = group.groupby("company_name")
-#
-# sorted = sorted(inner_groups, key=lambda x: len(x[1]), reverse=True)
-# dfs = [tuple[1] for tuple in sorted]
-# df = pd.concat(dfs)
+def order_company_name_groups_by_size(df):
+	groups = df.groupby("company_name")
+	sorted_groups = sorted(groups, key=lambda kvp: len(kvp[1]), reverse=True)
+	df_groups = [kvp[1] for kvp in sorted_groups]
+	sorted_df = pd.concat(df_groups)
+	return sorted_df
 
 
+stock_lists = stock_lists.groupby("stock_list").apply(order_company_name_groups_by_size).reset_index(drop=True)
 
-
+stock_lists.groupby("stock_list").apply(
+	lambda df: write_to_file(df["symbol"], STOCK_LIST_FILE_PATH + df["stock_list"][0] + ".stk"))
