@@ -1,6 +1,6 @@
 import pandas as pd
 
-from stock_symbols.io.file import write_to_file
+from stock_symbols.common.io.file import write_to_file
 from stock_symbols.retrieve.debt_securities.dataset import retrieve_debt_sec_dataset
 
 stock_list_industries_map = {

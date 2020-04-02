@@ -1,0 +1,7 @@
+SYMBOL_COL = "symbol"
+COUPON_RATE_COL = "coupon_rate"
+SECTOR_COL = "sector"
+INDUSTRY_COL = "industry"
+COMPANY_NAME_COL = "company_name"
+MONTH_3_AVER_VOL_COL = "month_3_aver_vol"
+STOCK_LIST_COL = "stock_list"
