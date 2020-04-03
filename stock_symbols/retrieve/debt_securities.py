@@ -4,8 +4,8 @@ from stock_symbols.retrieve.stock_data import StockDataRetriever
 
 class DebtSecRetriever(StockDataRetriever):
 	
-	def __init__(self):
-		self.debt_sec_repo = DebtSecRepo()
+	def __init__(self, debt_sec_repo):
+		self.debt_sec_repo = debt_sec_repo
 	
 	def retrieve(self):
 		return self.debt_sec_repo.get_all_data()

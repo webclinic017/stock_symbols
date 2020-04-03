@@ -4,14 +4,18 @@ import pandas as pd
 from stock_symbols.common.utils import invert_dict
 
 
-class StockDataTransformer(ABC):
+class StockDataTransformer:
 	
-	def __init__(self, stock_data):
+	def __init__(self, stock_data: pd.DataFrame, list_cols: list=None, sort_by: list=None, ascending: tuple=None):
 		self.stock_data = stock_data
+		self.list_cols = list_cols
+		self.sort_by = sort_by
+		self.ascending = ascending
+		self.stock_lists = None
 	
-	@abstractmethod
 	def transform(self):
-		pass
+		self.stock_lists = self.stock_data[self.list_cols]
+		self.stock_lists = self.stock_data.sort_values(self.sort_by, ascending=self.ascending)
 
 
 class StockListTransformer(StockDataTransformer):
@@ -36,5 +40,10 @@ class StockListTransformer(StockDataTransformer):
 		self.stock_data = pd.concat(ordered_groups)
 	
 	def transform(self):
+		super().transform()
 		self._create_stock_list_name_col()
+		# todo
 		self._order_groups_by_criteria()
+
+
+class DebtSecListTransformer(StockListTransformer):
