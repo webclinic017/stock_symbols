@@ -10,7 +10,7 @@ STOCK_LIST_COL = "stock_list"
 
 STOCK_LISTS_FILE_PATH = os.environ["STOCK_LISTS_FILE_PATH"]
 
-STOCK_LISTS_INDUSTRY_MAP = {
+DEBT_SEC_STOCK_LISTS_INDUSTRY_MAP = {
 	"banks": ["Major Banks", "Regional Banks", "Investment Banks/Brokers", "Financial Conglomerates", "Savings Banks"],
 	"insurance": ["Multi-Line Insurance", "Life/Health Insurance", "Property/Casualty Insurance", "Specialty Insurance",
 	              "Insurance Brokers/Services"],
@@ -30,3 +30,7 @@ STOCK_LISTS_INDUSTRY_MAP = {
 	          "Internet Retail", "Specialty Stores", "Information Technology Services", "Internet Software/Services",
 	          "Packaged Software", "NoData"]
 }
+
+DEBT_SEC_LIST_COLS = ["symbol", "coupon_rate", "sector", "industry", "company_name", "month_3_aver_vol"]
+DEBT_SEC_SORT_BY_COLS = ["sector", "industry", "company_name", "coupon_rate"]
+DEBT_SEC_ASC_SORT = (True, True, True, False)

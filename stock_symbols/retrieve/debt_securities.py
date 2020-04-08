@@ -1,8 +1,8 @@
 from stock_symbols.repository.debt_securities.debt_sec_data.debt_sec import DebtSecRepo
-from stock_symbols.retrieve.stock_data import StockDataRetriever
+from stock_symbols.retrieve.retrieve import Retriever
 
 
-class DebtSecRetriever(StockDataRetriever):
+class DebtSecRetriever(Retriever):
 	
 	def __init__(self, debt_sec_repo):
 		self.debt_sec_repo = debt_sec_repo

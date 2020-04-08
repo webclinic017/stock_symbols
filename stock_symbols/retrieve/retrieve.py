@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class StockDataRetriever(ABC):
+class Retriever(ABC):
 	
 	@abstractmethod
 	def retrieve(self):
