@@ -1,7 +1,9 @@
 import pandas as pd
 
-from stock_symbols.common.io.file import write_to_file
-from stock_symbols.retrieve.debt_securities.dataset import retrieve_debt_sec_dataset
+
+
+from stock_symbols.repository.fixed_income.data.securities import FixedIncomeSecRepo
+from stock_symbols.retrieve.fixed_income.securities import FixedIncomeSecRetriever
 
 stock_list_industries_map = {
 	"banks": ["Major Banks", "Regional Banks", "Investment Banks/Brokers", "Financial Conglomerates", "Savings Banks"],
@@ -31,7 +33,11 @@ def invert_dict(dic):
 	return dict((val, key) for key in dic for val in dic[key])
 
 
-debt_sec = retrieve_debt_sec_dataset()
+debt_sec = FixedIncomeSecRetriever(FixedIncomeSecRepo()).retrieve()
+
+x = debt_sec[["symbol"]]
+
+y = x.str.replace("-P", "p")
 
 debt_sec["symbol"] = debt_sec["symbol"].str.replace("-P", "p")
 

@@ -9,7 +9,7 @@ from stock_symbols.global_constants import STOCK_LIST_COL
 class Transformer(ABC):
 	
 	@abstractmethod
-	def transform(self, stock_data: pd.DataFrame):
+	def transform(self, data: pd.DataFrame):
 		pass
 
 
@@ -25,10 +25,10 @@ class StockDataTransformer(Transformer):
 		return copy
 
 
-class StockListTransformer(StockDataTransformer):
+class ListNamesTransformer(StockDataTransformer):
 	
 	def __init__(self, list_cols: list, stock_list_map, stock_list_col=STOCK_LIST_COL, map_col=None):
-		super(StockListTransformer, self).__init__(list_cols)
+		super(ListNamesTransformer, self).__init__(list_cols)
 		self.stock_list_map = stock_list_map
 		self.stock_list_col = stock_list_col
 		self.map_col = map_col

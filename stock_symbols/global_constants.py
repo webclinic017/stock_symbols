@@ -8,9 +8,11 @@ COMPANY_NAME_COL = "company_name"
 MONTH_3_AVER_VOL_COL = "month_3_aver_vol"
 STOCK_LIST_COL = "stock_list"
 
-STOCK_LISTS_FILE_PATH = os.environ["STOCK_LISTS_FILE_PATH"]
+STOCK_LISTS_PATH = os.environ["STOCK_LISTS_FILE_PATH"]
+FI_DIR = "fixed_income"
+FI_LISTS_PATH = os.path.join(STOCK_LISTS_PATH, FI_DIR)
 
-DEBT_SEC_STOCK_LISTS_INDUSTRY_MAP = {
+FI_STOCK_LISTS_INDUSTRY_MAP = {
 	"banks": ["Major Banks", "Regional Banks", "Investment Banks/Brokers", "Financial Conglomerates", "Savings Banks"],
 	"insurance": ["Multi-Line Insurance", "Life/Health Insurance", "Property/Casualty Insurance", "Specialty Insurance",
 	              "Insurance Brokers/Services"],
@@ -31,6 +33,9 @@ DEBT_SEC_STOCK_LISTS_INDUSTRY_MAP = {
 	          "Packaged Software", "NoData"]
 }
 
-DEBT_SEC_LIST_COLS = ["symbol", "coupon_rate", "sector", "industry", "company_name", "month_3_aver_vol"]
-DEBT_SEC_SORT_BY_COLS = ["sector", "industry", "company_name", "coupon_rate"]
-DEBT_SEC_ASC_SORT = (True, True, True, False)
+FI_LIST_COLS = ["symbol", "coupon_rate", "sector", "industry", "company_name", "month_3_aver_vol"]
+FI_SORT_BY_COLS = ["sector", "industry", "company_name", "coupon_rate"]
+FI_ASC_SORT = (True, True, True, False)
+
+DB_PREF_STOCK_KW = "-P"
+STERLING_TRADER_PREF_STOCK_KW = "p"

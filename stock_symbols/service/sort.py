@@ -8,7 +8,7 @@ from stock_symbols.global_constants import STOCK_LIST_COL
 class Sorter(ABC):
 	
 	@abstractmethod
-	def sort(self, stock_data: pd.DataFrame):
+	def sort(self, data: pd.DataFrame):
 		pass
 
 
