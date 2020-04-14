@@ -1,4 +1,5 @@
 import os
+import pathlib
 
 SYMBOL_COL = "symbol"
 COUPON_RATE_COL = "coupon_rate"
@@ -9,8 +10,14 @@ MONTH_3_AVER_VOL_COL = "month_3_aver_vol"
 STOCK_LIST_COL = "stock_list"
 
 STOCK_LISTS_PATH = os.environ["STOCK_LISTS_FILE_PATH"]
-FI_DIR = "fixed_income"
-FI_LISTS_PATH = os.path.join(STOCK_LISTS_PATH, FI_DIR)
+STOCK_LISTS_DIR_NAME = "stock_sorters_gen"
+ST_DIR_NAME = "sterling_trader"
+IB_DIR_NAME = "interactive_brokers"
+FI_DIR_NAME = "fixed_income"
+ST_FI_LISTS_PATH = os.path.join(STOCK_LISTS_PATH, STOCK_LISTS_DIR_NAME, ST_DIR_NAME, FI_DIR_NAME)
+pathlib.Path(ST_FI_LISTS_PATH).mkdir(parents=True, exist_ok=True)
+IB_FI_LISTS_PATH = os.path.join(STOCK_LISTS_PATH, STOCK_LISTS_DIR_NAME, IB_DIR_NAME, FI_DIR_NAME)
+pathlib.Path(IB_FI_LISTS_PATH).mkdir(parents=True, exist_ok=True)
 
 FI_STOCK_LISTS_INDUSTRY_MAP = {
 	"banks": ["Major Banks", "Regional Banks", "Investment Banks/Brokers", "Financial Conglomerates", "Savings Banks"],
@@ -38,4 +45,5 @@ FI_SORT_BY_COLS = ["sector", "industry", "company_name", "coupon_rate"]
 FI_ASC_SORT = (True, True, True, False)
 
 DB_PREF_STOCK_KW = "-P"
-STERLING_TRADER_PREF_STOCK_KW = "p"
+ST_PREF_STOCK_KW = "p"
+IB_PREF_STOCK_KW = " PR"

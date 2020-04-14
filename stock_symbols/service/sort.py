@@ -18,7 +18,7 @@ class StockDataSorter(Sorter):
 		self.sort_by = sort_by
 		self.ascending = ascending
 	
-	def sort(self, stock_data: pd.DataFrame):
+	def sort(self, stock_data: pd.DataFrame) -> pd.DataFrame:
 		copy = stock_data.copy()
 		copy = copy.sort_values(self.sort_by, ascending=self.ascending).reset_index(drop=True)
 		
@@ -35,7 +35,7 @@ class StockGroupsSorter(StockDataSorter):
 		self.criteria = criteria
 		self.reverse = reverse
 	
-	def _sort_groups_by_criteria(self, stock_data: pd.DataFrame):
+	def _sort_groups_by_criteria(self, stock_data: pd.DataFrame) -> pd.DataFrame:
 		groups = stock_data.groupby(self.groupby)
 		sorted_groups = sorted(groups, key=self.criteria, reverse=self.reverse)
 		sorted_groups = [kvp[1] for kvp in sorted_groups]
@@ -43,12 +43,12 @@ class StockGroupsSorter(StockDataSorter):
 		
 		return stock_data
 	
-	def sort(self, stock_data: pd.DataFrame):
+	def sort(self, stock_data: pd.DataFrame) -> pd.DataFrame:
 		copy = stock_data.copy()
 		copy = super().sort(copy)
-		copy = copy.\
-			groupby(self.stock_list_col).\
-			apply(lambda df: self._sort_groups_by_criteria(df)).\
+		copy = copy. \
+			groupby(self.stock_list_col). \
+			apply(lambda df: self._sort_groups_by_criteria(df)). \
 			reset_index(drop=True)
 		
 		return copy
