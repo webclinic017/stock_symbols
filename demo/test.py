@@ -1,32 +1,7 @@
 import pandas as pd
 
-
-
 from stock_symbols.repository.fixed_income.data.securities import FixedIncomeSecRepo
 from stock_symbols.retrieve.fixed_income.securities import FixedIncomeSecRetriever
-
-stock_list_industries_map = {
-	"banks": ["Major Banks", "Regional Banks", "Investment Banks/Brokers", "Financial Conglomerates", "Savings Banks"],
-	"insurance": ["Multi-Line Insurance", "Life/Health Insurance", "Property/Casualty Insurance", "Specialty Insurance",
-	              "Insurance Brokers/Services"],
-	"other_financial": ["Investment Trusts/Mutual Funds", "Finance/Rental/Leasing", "Investment Managers"],
-	"reits": ["Real Estate Investment Trusts", "Real Estate Development"],
-	"electric_commun": ["Electric Utilities", "Major Telecommunications", "Specialty Telecommunications",
-	                    "Wireless Telecommunications", "Water Utilities"],
-	"transport": ["Marine Shipping", "Air Freight/Couriers", "Trucking"],
-	"oil_gas": ["Oil & Gas Production", "Oil Refining/Marketing", "Oil & Gas Pipelines", "Gas Distributors",
-	            "Oilfield Services/Equipment", "Contract Drilling"],
-	"other": ["Agricultural Commodities/Milling", "Miscellaneous Commercial Services", "Homebuilding", "Motor Vehicles",
-	          "Recreational Products", "Tools & Hardware", "Beverages: Alcoholic", "Household/Personal Care",
-	          "Movies/Entertainment", "Other Consumer Services", "Wholesale Distributors",
-	          "Electronic Equipment/Instruments", "Semiconductors", "Biotechnology", "Medical Specialties",
-	          "Precious Metals", "Chemicals: Specialty", "Electrical Products", "Industrial Conglomerates",
-	          "Industrial Machinery", "Office Equipment/Supplies", "Trucks/Construction/Farm Machinery",
-	          "Internet Retail", "Specialty Stores", "Information Technology Services", "Internet Software/Services",
-	          "Packaged Software", "NoData"]
-}
-
-STOCK_LIST_FILE_PATH = "/home/hristocr/googledrive/Trading/stock_sorters_gen/"
 
 
 def invert_dict(dic):
@@ -34,10 +9,6 @@ def invert_dict(dic):
 
 
 debt_sec = FixedIncomeSecRetriever(FixedIncomeSecRepo()).retrieve()
-
-x = debt_sec[["symbol"]]
-
-y = x.str.replace("-P", "p")
 
 debt_sec["symbol"] = debt_sec["symbol"].str.replace("-P", "p")
 
@@ -54,6 +25,13 @@ inverted = invert_dict(stock_list_industries_map)
 
 debt_sec["stock_list"] = debt_sec["industry"].map(inverted)
 stock_lists = debt_sec[["stock_list", "company_name", "symbol", "coupon_rate"]]
+
+first_row = pd.DataFrame([["COLUMN", 0]])
+
+for name, group in x:
+	print(name)
+	print(group)
+	print()
 
 
 def order_company_name_groups_by_size(df):
