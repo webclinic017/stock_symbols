@@ -9,22 +9,22 @@ from stock_symbols.service.transform import ListNamesTransformer
 
 
 def main():
-	# fi=fixed income
-	fi_retriever = FixedIncomeSecRetriever(FixedIncomeSecRepo())
-	fi_transformer = ListNamesTransformer(FI_LIST_COLS, FI_STOCK_LISTS_INDUSTRY_MAP, map_col=INDUSTRY_COL)
-	fi_sorter = StockGroupsSorter(sort_by=FI_SORT_BY_COLS, ascending=FI_ASC_SORT, groupby=COMPANY_NAME_COL,
-	                              criteria=lambda kvp: len(kvp[1]))
-	# st=sterling_trader
-	# st_list_creator = SterlingTraderListCreator()
-	# st_list_writer = StockListsWriter(ST_FI_LISTS_PATH)
-	# fi_st_engine = StockListEngine(fi_retriever, fi_transformer, fi_sorter, st_list_creator, st_list_writer)
-	# fi_st_engine.run()
-	
-	ib_list_creator = InteractiveBrokersListCreator()
-	ib_list_writer = StockListsWriter(IB_FI_LISTS_PATH)
-	fi_ib_engine = StockListEngine(fi_retriever, fi_transformer, fi_sorter, ib_list_creator, ib_list_writer)
-	fi_ib_engine.run()
+    # fi=fixed income
+    fi_retriever = FixedIncomeSecRetriever(FixedIncomeSecRepo())
+    fi_transformer = ListNamesTransformer(FI_LIST_COLS, FI_STOCK_LISTS_INDUSTRY_MAP, map_col=INDUSTRY_COL)
+    fi_sorter = StockGroupsSorter(sort_by=FI_SORT_BY_COLS, ascending=FI_ASC_SORT, groupby=COMPANY_NAME_COL,
+                                  criteria=lambda kvp: len(kvp[1]))
+    # st=sterling_trader
+    # st_list_creator = SterlingTraderListCreator()
+    # st_list_writer = StockListsWriter(ST_FI_LISTS_PATH, suffix=ST_LIST_FILE_SUFFIX)
+    # fi_st_engine = StockListEngine(fi_retriever, fi_transformer, fi_sorter, st_list_creator, st_list_writer)
+    # fi_st_engine.run()
+    
+    ib_list_creator = InteractiveBrokersListCreator()
+    ib_list_writer = StockListsWriter(IB_FI_LISTS_PATH, suffix=IB_LIST_FILE_SUFFIX)
+    fi_ib_engine = StockListEngine(fi_retriever, fi_transformer, fi_sorter, ib_list_creator, ib_list_writer)
+    fi_ib_engine.run()
 
 
 if __name__ == '__main__':
-	main()
+    main()

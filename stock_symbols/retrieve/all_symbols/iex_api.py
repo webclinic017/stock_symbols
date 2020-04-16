@@ -23,5 +23,5 @@ struct - Structured Product
 
 
 def get_iex_all_symbols():
-	all_symbols = pd.read_csv(ALL_SYMBOLS_IEX_API)
-	return all_symbols
+    all_symbols = pd.read_csv(ALL_SYMBOLS_IEX_API)
+    return all_symbols

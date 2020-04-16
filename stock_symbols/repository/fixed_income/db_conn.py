@@ -9,7 +9,6 @@ DEBT_SEC_PSQL_PASSWORD = os.environ["DEBT_SEC_PSQL_PASSWORD"]
 DEBT_SEC_PSQL_IP_ADDRESS = os.environ["DEBT_SEC_PSQL_IP_ADDRESS"]
 DEBT_SEC_PSQL_DBNAME = os.environ["DEBT_SEC_PSQL_DBNAME"]
 
-
 postgres_str = 'postgresql://{username}:{password}@{ipaddress}:{port}/{dbname}'.format(username=DEBT_SEC_PSQL_USERNAME,
                                                                                        password=DEBT_SEC_PSQL_PASSWORD,
                                                                                        ipaddress=DEBT_SEC_PSQL_IP_ADDRESS,

@@ -9,19 +9,16 @@ FI_SEC_RETRIEVE_SUCC_MSG = "Fixed income table successfully retrieved!"
 
 
 class FixedIncomeSecRepo(BaseRepo):
-	
-	def __init__(self):
-		self.conn = db_conn
-	
-	def get_all_data(self):
-		try:
-			df = pd.read_sql_table(FI_SEC_TABLE_NAME, self.conn, schema=FI_SEC_DATA_SCHEMA)
-			print(FI_SEC_RETRIEVE_SUCC_MSG)
-			return df
-		except exc.DBAPIError as e:
-			print(DB_CONN_ERROR, e)
-		except Exception as e:
-			print(str(e))
-
-
-
+    
+    def __init__(self):
+        self.conn = db_conn
+    
+    def get_all_data(self):
+        try:
+            df = pd.read_sql_table(FI_SEC_TABLE_NAME, self.conn, schema=FI_SEC_DATA_SCHEMA)
+            print(FI_SEC_RETRIEVE_SUCC_MSG)
+            return df
+        except exc.DBAPIError as e:
+            print(DB_CONN_ERROR, e)
+        except Exception as e:
+            print(str(e))
