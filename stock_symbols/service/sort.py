@@ -48,7 +48,7 @@ class StockGroupsSorter(StockDataSorter):
         copy = super().sort(copy)
         copy = copy. \
             groupby(self.stock_list_col). \
-            apply(lambda df: self._sort_groups_by_criteria(df)). \
+            apply(self._sort_groups_by_criteria). \
             reset_index(drop=True)
         
         return copy

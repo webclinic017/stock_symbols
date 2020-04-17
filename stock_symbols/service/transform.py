@@ -33,12 +33,13 @@ class ListNamesTransformer(StockDataTransformer):
         self.stock_list_col = stock_list_col
         self.map_col = map_col
     
-    def _create_stock_list_name_col(self, stock_data: pd.DataFrame):
+    def _create_stock_list_name_col(self, stock_data: pd.DataFrame) -> pd.DataFrame:
         inverted_list_map = invert_dict(self.stock_list_map)
         stock_data[self.stock_list_col] = stock_data[self.map_col].map(inverted_list_map)
+        
         return stock_data
     
-    def transform(self, stock_data: pd.DataFrame):
+    def transform(self, stock_data: pd.DataFrame) -> pd.DataFrame:
         copy = stock_data.copy()
         copy = super().transform(copy)
         copy = self._create_stock_list_name_col(copy)
